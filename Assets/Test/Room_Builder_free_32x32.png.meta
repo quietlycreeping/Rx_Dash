@@ -1,46 +1,40 @@
 fileFormatVersion: 2
-guid: 192527f124bcd784794f7d9fe92d5c6f
+guid: 29e99678efdb3a342b4d829e43f631fa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3007347946992614866
-    second: CharacterSheet_CharacterFront_0
+      213: 9109552638495194979
+    second: Room_Builder_free_32x32_0
   - first:
-      213: -4401887970105912376
-    second: CharacterSheet_CharacterFront_1
+      213: -7506348682409849255
+    second: Room_Builder_free_32x32_1
   - first:
-      213: -7121525273169706590
-    second: CharacterSheet_CharacterFront_2
+      213: 4112441042579753414
+    second: Room_Builder_free_32x32_2
   - first:
-      213: 1317232268871971278
-    second: CharacterSheet_CharacterFront_3
+      213: 8559523594912332591
+    second: Room_Builder_free_32x32_3
   - first:
-      213: -4612441831689482104
-    second: CharacterSheet_CharacterFront_4
+      213: 3592126823095420044
+    second: Room_Builder_free_32x32_4
   - first:
-      213: -4360188385029425823
-    second: CharacterSheet_CharacterFront_5
+      213: 7349880512011621792
+    second: Room_Builder_free_32x32_5
   - first:
-      213: -8942399481028505324
-    second: CharacterSheet_CharacterFront_6
+      213: 434544671118621414
+    second: Room_Builder_free_32x32_6
   - first:
-      213: 4411540172903932707
-    second: CharacterSheet_CharacterFront_7
+      213: -401439157481825980
+    second: Room_Builder_free_32x32_7
   - first:
-      213: -3671862964777579655
-    second: CharacterSheet_CharacterFront_8
+      213: 9097957385329583942
+    second: Room_Builder_free_32x32_8
   - first:
-      213: -230631582642789085
-    second: CharacterSheet_CharacterFront_9
+      213: 7737766983778205989
+    second: Room_Builder_free_32x32_9
   - first:
-      213: -6999402986031034280
-    second: CharacterSheet_CharacterFront_10
-  - first:
-      213: -2853254581368858591
-    second: CharacterSheet_CharacterFront_11
-  - first:
-      213: -4407482996654247040
-    second: CharacterSheet_CharacterFront_12
+      213: 2727882227345727589
+    second: Room_Builder_free_32x32_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -188,287 +182,287 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle2_Front
+      name: Room_Builder_free_32x32_9
       rect:
         serializedVersion: 2
-        x: 350
-        y: 700
-        width: 350
-        height: 350
-      alignment: 9
-      pivot: {x: 0.55, y: 0.16}
+        x: 130
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5504d406c99abe944b3cfbdcf3a4e12f
-      internalID: 1549263494
+      spriteID: 52188d64312126b60800000000000000
+      internalID: 7737766983778205989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blick_Front
+      name: Room_Builder_free_32x32_0
       rect:
         serializedVersion: 2
-        x: 700
-        y: 700
-        width: 350
-        height: 350
-      alignment: 9
-      pivot: {x: 0.55, y: 0.16}
+        x: 130
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2801989c76ef4e24e803ce200f3ecfb5
-      internalID: 715802523
+      spriteID: 8e6a25f7dc01e28408a2f8822ab42b25
+      internalID: 224253295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pickup_Front
+      name: Room_Builder_free_32x32_4
       rect:
         serializedVersion: 2
-        x: 1050
-        y: 700
-        width: 350
-        height: 350
-      alignment: 9
-      pivot: {x: 0.55, y: 0.16}
+        x: 281
+        y: 386
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10cf2e36ce0227d42b9e67a8ec4a6fd7
-      internalID: -1062440163
+      spriteID: bd8bb0ec8f11aa64189d32e497910441
+      internalID: -154560373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Talk1_Front
+      name: Room_Builder_free_32x32_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 350
-        width: 350
-        height: 350
-      alignment: 9
-      pivot: {x: 0.55, y: 0.16}
+        x: 130
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 820f773dbf1760940bcf28de4944d416
-      internalID: 707817007
+      spriteID: aed7d1dfdd861a24bb0423d27eaa5b0e
+      internalID: 1384625807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Talk2_Front
+      name: Room_Builder_free_32x32_6
       rect:
         serializedVersion: 2
-        x: 350
-        y: 350
-        width: 350
-        height: 350
-      alignment: 9
-      pivot: {x: 0.55, y: 0.16}
+        x: 130
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 108c5153dcde52d4f8d06fd2a4ff6c57
-      internalID: -1744950199
+      spriteID: b3afc2c19f7c4e741b5283b68c6398f4
+      internalID: -813277637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Talk3_Front
+      name: Room_Builder_free_32x32_7
       rect:
         serializedVersion: 2
-        x: 700
-        y: 350
-        width: 350
-        height: 350
-      alignment: 9
-      pivot: {x: 0.55, y: 0.16}
+        x: 132
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22a83ca8b3c14974a9f1603a0bb9832a
-      internalID: -625721189
+      spriteID: 74b87e35a8f1f174692b38f7e31e8418
+      internalID: 843046257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Talk4_Front
+      name: Room_Builder_free_32x32_8
       rect:
         serializedVersion: 2
-        x: 1050
-        y: 350
-        width: 350
-        height: 350
-      alignment: 9
-      pivot: {x: 0.55, y: 0.16}
+        x: 284
+        y: 418
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b688089826250a4478e7cbcec74feace
-      internalID: -1386313174
+      spriteID: 5e82dd4d6dd4e714a99db6682b9898c9
+      internalID: -267612817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Talk5_Front
+      name: Room_Builder_free_32x32_12
       rect:
         serializedVersion: 2
-        x: 1400
-        y: 350
-        width: 350
-        height: 350
-      alignment: 9
-      pivot: {x: 0.55, y: 0.16}
+        x: 352
+        y: 321
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c1c0ff095586ec4fbd1e4960b29d876
-      internalID: 1951158351
+      spriteID: 4926720dded5c2a4e88cd0b8fb8c0b7b
+      internalID: -627426912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk1_Front
+      name: Room_Builder_free_32x32_13
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 350
-        height: 350
-      alignment: 9
-      pivot: {x: 0.55, y: 0.16}
+        x: 352
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b6c05908d1f9884394f87c537ebc520
-      internalID: -1919236423
+      spriteID: b4e2cd0e2b3294d47a514c8c01d41503
+      internalID: 1539243254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk2_Front
+      name: Room_Builder_free_32x32_14
       rect:
         serializedVersion: 2
-        x: 350
-        y: 0
-        width: 350
-        height: 350
-      alignment: 9
-      pivot: {x: 0.55, y: 0.16}
+        x: 384
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eca509bb63d116f4a9b1203410281514
-      internalID: -2034555885
+      spriteID: a70231b1c577a7b4bb5017ef2aa138a1
+      internalID: 296738923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk3_Front
+      name: Room_Builder_free_32x32_15
       rect:
         serializedVersion: 2
-        x: 700
-        y: 0
-        width: 350
-        height: 350
-      alignment: 9
-      pivot: {x: 0.55, y: 0.16}
+        x: 383
+        y: 321
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2758a8713f729e44b9b5d87684dc4db7
-      internalID: 224550830
+      spriteID: 5917500ad661e4349a74ef6c917c281f
+      internalID: 1191856952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk4_Front
+      name: Room_Builder_free_32x32_1
       rect:
         serializedVersion: 2
-        x: 1050
-        y: 0
-        width: 350
-        height: 350
-      alignment: 9
-      pivot: {x: 0.55, y: 0.16}
+        x: 94
+        y: 418
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9966ff5a1117e8d43b7c3d87148dbd64
-      internalID: 214244938
+      spriteID: 15c405acd55a90e4d9d475702a4c729a
+      internalID: 1060187291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle1_Front
+      name: Room_Builder_free_32x32_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 700
-        width: 350
-        height: 350
-      alignment: 9
-      pivot: {x: 0.55, y: 0.16}
+        x: 93
+        y: 386
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e293d73acdc50b842b9d046e5621cb66
-      internalID: 948498837
+      spriteID: f00347fa07262d4448c437abc6173e62
+      internalID: -152396133
       vertices: []
       indices: 
       edges: []
@@ -477,7 +471,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a9b3e672002f38948a9abfaefeb196a6
+    spriteID: 991363dab73694e42982c988074cc0c7
     internalID: 0
     vertices: []
     indices: 
@@ -487,19 +481,19 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Blick_Front: 715802523
-      Idle1_Front: 948498837
-      Idle2_Front: 1549263494
-      Pickup_Front: -1062440163
-      Talk1_Front: 707817007
-      Talk2_Front: -1744950199
-      Talk3_Front: -625721189
-      Talk4_Front: -1386313174
-      Talk5_Front: 1951158351
-      Walk1_Front: -1919236423
-      Walk2_Front: -2034555885
-      Walk3_Front: 224550830
-      Walk4_Front: 214244938
+      Room_Builder_free_32x32_0: 224253295
+      Room_Builder_free_32x32_1: 1060187291
+      Room_Builder_free_32x32_11: 1603192869
+      Room_Builder_free_32x32_12: -627426912
+      Room_Builder_free_32x32_13: 1539243254
+      Room_Builder_free_32x32_14: 296738923
+      Room_Builder_free_32x32_15: 1191856952
+      Room_Builder_free_32x32_2: -152396133
+      Room_Builder_free_32x32_4: -154560373
+      Room_Builder_free_32x32_5: 1384625807
+      Room_Builder_free_32x32_6: -813277637
+      Room_Builder_free_32x32_7: 843046257
+      Room_Builder_free_32x32_8: -267612817
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
