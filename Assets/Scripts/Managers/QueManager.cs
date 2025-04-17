@@ -1,3 +1,7 @@
+//==========================================================
+// Author: J. Orlando
+// Description: manage que of customers in game levels
+//==========================================================
 using System;
 using System.Collections.Generic;
 using UnityEditor;
