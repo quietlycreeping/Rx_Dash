@@ -3,6 +3,7 @@
  Date:       April 2025
  Description: To control the player movement and animations 
 ==========================================================*/
+using System;
 using System.Collections;
 using UnityEditor;
 using UnityEngine;
@@ -13,8 +14,9 @@ public class PlayerController : MonoBehaviour
 //================= Variables =================//
     Vector2 clickedPoint;
     RaycastHit2D hitInfo;
+    GameObject clickedObject;
     NavMeshAgent agent;
-    Vector2 cashRegisterPoint;
+    Vector2 playerDestination;
 
 //================= Core Functions =================//
     private void Awake() 
@@ -24,37 +26,44 @@ public class PlayerController : MonoBehaviour
         agent.updateUpAxis = false;
     }
 
-    private void Start()
-    {
-        cashRegisterPoint = GameObject.Find("playerPoint").transform.position;
-    }
+
+
+
     private void Update()
     {
         if(Input.GetMouseButtonDown(0))
         {
             clickedPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             hitInfo = Physics2D.Raycast(clickedPoint, Vector2.zero);
+            clickedObject = hitInfo.collider.gameObject;
 
             if (hitInfo.collider != null)
             {
                 if(hitInfo.collider.CompareTag("Ground"))
-                    MoveToTarget(clickedPoint);
-                    
-                else if (hitInfo.collider.CompareTag("Checkout"))
                 {
-                    Debug.Log("cash registr clicked");
-                    //TODO: registr function
-                    MoveToTarget(cashRegisterPoint);
+                    playerDestination = clickedPoint;
+                    StartCoroutine(MoveToTarget());
+                }
+                else if(clickedObject.TryGetComponent(out IClickable clickableObject))
+                {
+                    Transform childLocation = clickedObject.transform.GetChild(0);
+                    playerDestination = childLocation.position;
+                    StartCoroutine(MoveToTarget());
+                    clickableObject.Interact();
                 }
             }
         }
     }
 
 //================= Functions =================//
-    private void MoveToTarget(Vector2 playerDest)
+    IEnumerator MoveToTarget()
     {
         agent.isStopped = false;
-        agent.destination = playerDest;
+        while (Vector3.Distance(transform.position, playerDestination) > 0)
+        {
+            agent.destination = playerDestination;
+            yield return null;
+        }
+        agent.isStopped = true; 
     }
-    
 }
