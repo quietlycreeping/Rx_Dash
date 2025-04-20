@@ -3,16 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+
 public class TimeManager : MonoBehaviour
 {
 
     public UIManager uIManager;
+    
+    public AudioSource warningJingle;
+
 //================= Variables =================//
     [Header("Component")]
     public TextMeshProUGUI timerText;
 
     [Header("Time Settings")]
     public float levelTime;
+    public float warningTime;
     float currentTime;
     bool countDown = true;
 
@@ -23,8 +28,12 @@ public class TimeManager : MonoBehaviour
     //================= Core Functions =================//
     public void Awake()
     {
-        //uIManager = GetComponent<UIManager>();
         currentTime = levelTime;
+    }
+
+    public void Start()
+    {
+        warningJingle.PlayDelayed(levelTime-warningTime);
     }
     public void Update()
     {
@@ -46,10 +55,10 @@ public class TimeManager : MonoBehaviour
                 Debug.Log("Gameover");
                 uIManager.GoToPage(3);
             }
- 
-
         }
+
         DisplayTime(currentTime);
+
     }
 
 //================= Functions =================//

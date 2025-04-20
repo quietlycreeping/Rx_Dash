@@ -3916,8 +3916,8 @@ MonoBehaviour:
   pausePageIndex: 0
   allowPause: 0
   navigationEffect: {fileID: 0}
-  clickEffect: {fileID: 0}
-  backEffect: {fileID: 0}
+  clickEffect: {fileID: 2744992937227283135, guid: cb15e079fa813a64f86608d4c9a5615e, type: 3}
+  backEffect: {fileID: 2744992937227283135, guid: 3aceafe005cd7a844a595976f2be217b, type: 3}
   eventSystem: {fileID: 0}
   inputManager: {fileID: 0}
 --- !u!114 &8607375571525660811

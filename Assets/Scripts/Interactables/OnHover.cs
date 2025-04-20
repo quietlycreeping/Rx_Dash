@@ -1,7 +1,9 @@
 using UnityEngine;
 
+
 public class OnHover : MonoBehaviour
 {
+    public AudioSource soundEffect;
     Renderer hoverMaterial;
     private void Start()
     {
@@ -10,6 +12,7 @@ public class OnHover : MonoBehaviour
     void OnMouseOver()
     {
         hoverMaterial.material.SetFloat("_NotHover", 0);
+        soundEffect.Play();
     }
 
     void OnMouseExit()
