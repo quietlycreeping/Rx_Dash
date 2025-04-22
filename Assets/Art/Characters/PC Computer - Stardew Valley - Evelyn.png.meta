@@ -251,6 +251,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1235,7 +1261,51 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PC Computer - Stardew Valley - Evelyn_0: 6276789221008704502
+      PC Computer - Stardew Valley - Evelyn_1: -8299571899138032602
+      PC Computer - Stardew Valley - Evelyn_10: -1140505619828775424
+      PC Computer - Stardew Valley - Evelyn_11: 5092833636870866251
+      PC Computer - Stardew Valley - Evelyn_12: -671697322326113363
+      PC Computer - Stardew Valley - Evelyn_13: -2137769479388089001
+      PC Computer - Stardew Valley - Evelyn_14: -3543783836083259452
+      PC Computer - Stardew Valley - Evelyn_15: 7645280543199829398
+      PC Computer - Stardew Valley - Evelyn_16: 3179246065315585762
+      PC Computer - Stardew Valley - Evelyn_17: 8841894653230416246
+      PC Computer - Stardew Valley - Evelyn_18: 3873686246918787230
+      PC Computer - Stardew Valley - Evelyn_19: -4408238543170026489
+      PC Computer - Stardew Valley - Evelyn_2: 4530890636548613275
+      PC Computer - Stardew Valley - Evelyn_20: 1220426365610185262
+      PC Computer - Stardew Valley - Evelyn_21: 5849354411592564177
+      PC Computer - Stardew Valley - Evelyn_22: -1762337940784650657
+      PC Computer - Stardew Valley - Evelyn_23: -6078618032720175280
+      PC Computer - Stardew Valley - Evelyn_24: 2180450854351910725
+      PC Computer - Stardew Valley - Evelyn_25: -105915311696711877
+      PC Computer - Stardew Valley - Evelyn_26: -2863092093475609161
+      PC Computer - Stardew Valley - Evelyn_27: 9194660682815387431
+      PC Computer - Stardew Valley - Evelyn_28: 1233380216459527058
+      PC Computer - Stardew Valley - Evelyn_29: -2062409301354481176
+      PC Computer - Stardew Valley - Evelyn_3: 8580781671112048957
+      PC Computer - Stardew Valley - Evelyn_30: -907719945480047017
+      PC Computer - Stardew Valley - Evelyn_31: -7174696322555694689
+      PC Computer - Stardew Valley - Evelyn_32: -8155461653637110197
+      PC Computer - Stardew Valley - Evelyn_33: 8925496445410331553
+      PC Computer - Stardew Valley - Evelyn_34: 5141687696367339092
+      PC Computer - Stardew Valley - Evelyn_35: -6379758379908322205
+      PC Computer - Stardew Valley - Evelyn_36: 4384732113361196038
+      PC Computer - Stardew Valley - Evelyn_37: -8251265170394454319
+      PC Computer - Stardew Valley - Evelyn_38: 5225036089481820134
+      PC Computer - Stardew Valley - Evelyn_39: 2780144867923347852
+      PC Computer - Stardew Valley - Evelyn_4: -860052698466093746
+      PC Computer - Stardew Valley - Evelyn_40: 5082018683692575238
+      PC Computer - Stardew Valley - Evelyn_41: 4521492283278715612
+      PC Computer - Stardew Valley - Evelyn_42: 5938606807286308924
+      PC Computer - Stardew Valley - Evelyn_43: -1504873880758272741
+      PC Computer - Stardew Valley - Evelyn_5: -410225783469473759
+      PC Computer - Stardew Valley - Evelyn_6: -1493542578409681637
+      PC Computer - Stardew Valley - Evelyn_7: -1257924360631583352
+      PC Computer - Stardew Valley - Evelyn_8: 114271604960752555
+      PC Computer - Stardew Valley - Evelyn_9: 8531713520444552204
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

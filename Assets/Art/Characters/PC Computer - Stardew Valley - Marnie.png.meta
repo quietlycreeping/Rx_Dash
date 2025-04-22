@@ -331,7 +331,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -345,7 +345,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -369,7 +369,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -416,6 +416,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -428,7 +454,7 @@ TextureImporter:
         width: 16
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -450,7 +476,7 @@ TextureImporter:
         width: 17
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -472,7 +498,7 @@ TextureImporter:
         width: 17
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -494,7 +520,7 @@ TextureImporter:
         width: 17
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -508,160 +534,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_4
-      rect:
-        serializedVersion: 2
-        x: 191
-        y: 255
-        width: 17
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 151f7d40fa99e6f20800000000000000
-      internalID: 3417838144200372561
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_5
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 255
-        width: 17
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 36bc70079746d94e0800000000000000
-      internalID: -1973310588985029789
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_6
-      rect:
-        serializedVersion: 2
-        x: 223
-        y: 255
-        width: 17
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e0257aef6f28bc450800000000000000
-      internalID: 6110121316804153870
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_7
-      rect:
-        serializedVersion: 2
-        x: 239
-        y: 255
-        width: 17
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6d323e81098896950800000000000000
-      internalID: 6442830894404412374
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_8
-      rect:
-        serializedVersion: 2
-        x: 257
-        y: 255
-        width: 21
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 902b8d080e40ded90800000000000000
-      internalID: -7066986877993569783
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_9
-      rect:
-        serializedVersion: 2
-        x: 277
-        y: 255
-        width: 22
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7daf68f73e5307000800000000000000
-      internalID: 31584448604994263
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_10
-      rect:
-        serializedVersion: 2
-        x: 298
-        y: 255
-        width: 21
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 200a0a79126f2f750800000000000000
-      internalID: 6337398249801949186
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: PC Computer - Stardew Valley - Marnie_11
       rect:
         serializedVersion: 2
@@ -670,7 +542,7 @@ TextureImporter:
         width: 16
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -692,7 +564,7 @@ TextureImporter:
         width: 16
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -714,7 +586,7 @@ TextureImporter:
         width: 16
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -736,7 +608,7 @@ TextureImporter:
         width: 16
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -750,94 +622,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_15
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 223
-        width: 16
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 12fe6d78a95d0c440800000000000000
-      internalID: 4954194449788235553
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_16
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 223
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2c2d6749bccddc260800000000000000
-      internalID: 7119589352869909186
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_17
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 223
-        width: 16
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cae050acfb56ea4b0800000000000000
-      internalID: -5427288626532381012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_18
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 223
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ab9196c6a17053f40800000000000000
-      internalID: 5707475912831343034
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: PC Computer - Stardew Valley - Marnie_19
       rect:
         serializedVersion: 2
@@ -846,7 +630,7 @@ TextureImporter:
         width: 16
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -868,7 +652,7 @@ TextureImporter:
         width: 17
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -890,7 +674,7 @@ TextureImporter:
         width: 16
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -912,7 +696,7 @@ TextureImporter:
         width: 17
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -926,94 +710,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_23
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 191
-        width: 16
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0234cdf91b4bab830800000000000000
-      internalID: 4087778286776369952
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_24
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 191
-        width: 17
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ada906d52b3acefc0800000000000000
-      internalID: -3464214026888635686
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_25
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 191
-        width: 16
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 53b9d0552f70e7730800000000000000
-      internalID: 3998642256542014261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_26
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 191
-        width: 17
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e49ef2cbc3bd78470800000000000000
-      internalID: 8396921084157356366
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: PC Computer - Stardew Valley - Marnie_27
       rect:
         serializedVersion: 2
@@ -1022,7 +718,7 @@ TextureImporter:
         width: 16
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1044,7 +740,7 @@ TextureImporter:
         width: 16
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1066,7 +762,7 @@ TextureImporter:
         width: 16
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1088,7 +784,7 @@ TextureImporter:
         width: 16
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1101,1507 +797,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_31
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 127
-        width: 59
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: db16c119a43bca5f0800000000000000
-      internalID: -744022705579466307
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_32
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 127
-        width: 59
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 083c96fc696aac1d0800000000000000
-      internalID: -3329665807831940224
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_33
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 159
-        width: 16
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8ea4a8dbd6fcc6ed0800000000000000
-      internalID: -2419330829566457112
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_34
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 159
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 011d8504264a9fdf0800000000000000
-      internalID: -145904771019517680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_35
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 159
-        width: 16
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b71d109202c6d1960800000000000000
-      internalID: 7574329033689780603
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_36
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 159
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d76b44df765c0bbe0800000000000000
-      internalID: -1463452828473969027
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_37
-      rect:
-        serializedVersion: 2
-        x: 257
-        y: 127
-        width: 56
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 83036218eaad37230800000000000000
-      internalID: 3635489767244050488
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_38
-      rect:
-        serializedVersion: 2
-        x: 321
-        y: 127
-        width: 56
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7a6121e8e5aa7dae0800000000000000
-      internalID: -1524562625754425689
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_39
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 127
-        width: 59
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8726a5c9eb63406b0800000000000000
-      internalID: -5331075866604969352
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_40
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 127
-        width: 59
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1f94cdec948ec07f0800000000000000
-      internalID: -644885242920023567
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_41
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 127
-        width: 16
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6362803fa855376e0800000000000000
-      internalID: -1841033767393155530
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_42
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 127
-        width: 50
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5b1c9fd382cf84dc0800000000000000
-      internalID: -3654393847842487883
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_43
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 127
-        width: 16
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9dfdbbd5c395d23e0800000000000000
-      internalID: -2076905737342427175
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_44
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 127
-        width: 50
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 41efca6850b416de0800000000000000
-      internalID: -1341708726873293292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_45
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 95
-        width: 16
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c7b65c41d40fb41a0800000000000000
-      internalID: -6824096596498224260
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_46
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 63
-        width: 16
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: de4d00b2b8a63e020800000000000000
-      internalID: 2369854974881486061
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_47
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 95
-        width: 17
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 33d683d45ef7bfef0800000000000000
-      internalID: -73324346101699277
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_48
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 95
-        width: 18
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2df2c9dbbd51591e0800000000000000
-      internalID: -2191821610122727470
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_49
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 95
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bc8ca5a2638350350800000000000000
-      internalID: 5982249485321554123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_50
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 63
-        width: 59
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 81e152b41f6601e40800000000000000
-      internalID: 5625109121119624728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_51
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 0
-        width: 82
-        height: 124
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a5cfe21756916ee50800000000000000
-      internalID: 6838181007689972826
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_52
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 95
-        width: 17
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5953da766a67f9250800000000000000
-      internalID: 5953607689483138453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_53
-      rect:
-        serializedVersion: 2
-        x: 223
-        y: 95
-        width: 18
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dc460d00945cb8290800000000000000
-      internalID: -7886993405072350003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_54
-      rect:
-        serializedVersion: 2
-        x: 239
-        y: 95
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b7a9a650aa581ae30800000000000000
-      internalID: 4513035266883754619
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_55
-      rect:
-        serializedVersion: 2
-        x: 257
-        y: 63
-        width: 56
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: af7d024591c4a2e50800000000000000
-      internalID: 6785319460256405498
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_56
-      rect:
-        serializedVersion: 2
-        x: 319
-        y: 0
-        width: 66
-        height: 124
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e916b6c7bb0a4b540800000000000000
-      internalID: 5022816211531686302
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_57
-      rect:
-        serializedVersion: 2
-        x: 383
-        y: 95
-        width: 17
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 182a9a1f95e2c1e60800000000000000
-      internalID: 7934267607361364609
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_58
-      rect:
-        serializedVersion: 2
-        x: 399
-        y: 95
-        width: 17
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 337e3eb1ebf987b00800000000000000
-      internalID: 826586170483009331
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_59
-      rect:
-        serializedVersion: 2
-        x: 415
-        y: 95
-        width: 17
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7b0bdf1d95ccbda90800000000000000
-      internalID: -7288006885821796169
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_60
-      rect:
-        serializedVersion: 2
-        x: 431
-        y: 95
-        width: 17
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6d52823ed501c1a00800000000000000
-      internalID: 728475235156239830
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_61
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 63
-        width: 59
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ad16b54071c4231e0800000000000000
-      internalID: -2219628004599176742
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_62
-      rect:
-        serializedVersion: 2
-        x: 511
-        y: 0
-        width: 65
-        height: 124
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b07feaed36b53e050800000000000000
-      internalID: 5828602827243452171
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_63
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 63
-        width: 17
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5df351f19b7412940800000000000000
-      internalID: 5269571899416199125
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_64
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 64
-        width: 17
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3401d08bd607dcc00800000000000000
-      internalID: 922517115222429763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_65
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 31
-        width: 18
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8c4a0cb3f29719490800000000000000
-      internalID: -7741273040700267320
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_66
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 64
-        width: 18
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 42cdd7ea9ba6d80d0800000000000000
-      internalID: -3418959196375360476
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_67
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 31
-        width: 17
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ecdb44ef858310040800000000000000
-      internalID: 4612029448278293966
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_68
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 63
-        width: 17
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e6d9458b5e08be6f0800000000000000
-      internalID: -654287596723856018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_69
-      rect:
-        serializedVersion: 2
-        x: 223
-        y: 64
-        width: 17
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eab8de1bc1d3a42d0800000000000000
-      internalID: -3293752984014582866
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_70
-      rect:
-        serializedVersion: 2
-        x: 223
-        y: 31
-        width: 18
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 56aef30436e9ad5f0800000000000000
-      internalID: -731097840377402779
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_71
-      rect:
-        serializedVersion: 2
-        x: 239
-        y: 64
-        width: 18
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c7f05f60e59156770800000000000000
-      internalID: 8603310554795544444
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_72
-      rect:
-        serializedVersion: 2
-        x: 239
-        y: 31
-        width: 17
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 28374ed609ca00110800000000000000
-      internalID: 1225168834963731330
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_73
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 63
-        width: 16
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6cf27971fe6bc79b0800000000000000
-      internalID: -5080985141571539002
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_74
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 63
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 61396a0fae8745bb0800000000000000
-      internalID: -4948197140118203626
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_75
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 63
-        width: 16
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5d5d936e90b30d830800000000000000
-      internalID: 4093836974983075285
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_76
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 63
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b822cbb8314f74380800000000000000
-      internalID: -8986946166608616821
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_77
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 31
-        width: 17
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2bc9195a27970afd0800000000000000
-      internalID: -2332731073666900814
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_78
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 31
-        width: 18
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 46ee892b25ab5baa0800000000000000
-      internalID: -6145801252130722204
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_79
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 0
-        width: 59
-        height: 63
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 83457526756b97210800000000000000
-      internalID: 1331295651292992568
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_80
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 31
-        width: 18
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 234ac9f0f215c3e70800000000000000
-      internalID: 9096234609948795954
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_81
-      rect:
-        serializedVersion: 2
-        x: 257
-        y: 0
-        width: 56
-        height: 63
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0b2e521ee2015e6a0800000000000000
-      internalID: -6420707900214877520
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_82
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 48
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 611a560d6477b3070800000000000000
-      internalID: 8087188701901594902
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_83
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 31
-        width: 16
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 938ae4613c6d27980800000000000000
-      internalID: -8542529409787189191
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_84
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 31
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f062f34ed852b41b0800000000000000
-      internalID: -5671398014393047537
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_85
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 31
-        width: 16
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 013f3372020a6b9c0800000000000000
-      internalID: -3911763166367583472
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_86
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 31
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3e446fa46e76c4e20800000000000000
-      internalID: 3336155662772487395
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_87
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 0
-        width: 59
-        height: 63
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9fb412ab1738e53d0800000000000000
-      internalID: -3215988559418668039
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_88
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 3
-        width: 16
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ee80bd5859fe69860800000000000000
-      internalID: 7536474451925993710
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_89
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 0
-        width: 17
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d745460b8b6119600800000000000000
-      internalID: 473184418339771517
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_90
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 0
-        width: 17
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 03dbcf39a1829bdf0800000000000000
-      internalID: -164055816805237456
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_91
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 0
-        width: 17
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9a499d82269b28e90800000000000000
-      internalID: -7024848637501270871
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_92
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 0
-        width: 17
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 845bf2c110f7ca7a0800000000000000
-      internalID: -6364572530636769976
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_93
-      rect:
-        serializedVersion: 2
-        x: 223
-        y: 0
-        width: 17
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6b74f527382f21700800000000000000
-      internalID: 509736354219771830
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_94
-      rect:
-        serializedVersion: 2
-        x: 239
-        y: 0
-        width: 17
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5a78884a860180e80800000000000000
-      internalID: -8212295878887045211
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_95
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f460ee46b60c6510800000000000000
-      internalID: 1543616152358380790
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_96
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 0
-        width: 16
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a245af917bcdcb9b0800000000000000
-      internalID: -5062929202098318294
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_97
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 0
-        width: 16
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6ebffda8fe9286a00800000000000000
-      internalID: 749895446761044966
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Stardew Valley - Marnie_98
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 0
-        width: 16
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 940afe1b668738600800000000000000
-      internalID: 469351168643932233
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c60909fcd34c0f3438dd34e88c43f755
     internalID: 0
     vertices: []
     indices: 
@@ -2610,7 +810,106 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PC Computer - Stardew Valley - Marnie_0: 6686979806663055853
+      PC Computer - Stardew Valley - Marnie_1: -4377012204194341145
+      PC Computer - Stardew Valley - Marnie_10: 6337398249801949186
+      PC Computer - Stardew Valley - Marnie_11: -977471534030392968
+      PC Computer - Stardew Valley - Marnie_12: -7503204180008119882
+      PC Computer - Stardew Valley - Marnie_13: 6131183831772202165
+      PC Computer - Stardew Valley - Marnie_14: -8514728743281823216
+      PC Computer - Stardew Valley - Marnie_15: 4954194449788235553
+      PC Computer - Stardew Valley - Marnie_16: 7119589352869909186
+      PC Computer - Stardew Valley - Marnie_17: -5427288626532381012
+      PC Computer - Stardew Valley - Marnie_18: 5707475912831343034
+      PC Computer - Stardew Valley - Marnie_19: -2921268535675567191
+      PC Computer - Stardew Valley - Marnie_2: 8954621143031008788
+      PC Computer - Stardew Valley - Marnie_20: -422727244424974833
+      PC Computer - Stardew Valley - Marnie_21: 5621491085436078359
+      PC Computer - Stardew Valley - Marnie_22: 7153813856988937867
+      PC Computer - Stardew Valley - Marnie_23: 4087778286776369952
+      PC Computer - Stardew Valley - Marnie_24: -3464214026888635686
+      PC Computer - Stardew Valley - Marnie_25: 3998642256542014261
+      PC Computer - Stardew Valley - Marnie_26: 8396921084157356366
+      PC Computer - Stardew Valley - Marnie_27: 9088998900205338455
+      PC Computer - Stardew Valley - Marnie_28: -7230325502746900205
+      PC Computer - Stardew Valley - Marnie_29: -7441659334983944371
+      PC Computer - Stardew Valley - Marnie_3: 1366818764585742350
+      PC Computer - Stardew Valley - Marnie_30: -1481926107681905337
+      PC Computer - Stardew Valley - Marnie_31: -744022705579466307
+      PC Computer - Stardew Valley - Marnie_32: -3329665807831940224
+      PC Computer - Stardew Valley - Marnie_33: -2419330829566457112
+      PC Computer - Stardew Valley - Marnie_34: -145904771019517680
+      PC Computer - Stardew Valley - Marnie_35: 7574329033689780603
+      PC Computer - Stardew Valley - Marnie_36: -1463452828473969027
+      PC Computer - Stardew Valley - Marnie_37: 3635489767244050488
+      PC Computer - Stardew Valley - Marnie_38: -1524562625754425689
+      PC Computer - Stardew Valley - Marnie_39: -5331075866604969352
+      PC Computer - Stardew Valley - Marnie_4: 3417838144200372561
+      PC Computer - Stardew Valley - Marnie_40: -644885242920023567
+      PC Computer - Stardew Valley - Marnie_41: -1841033767393155530
+      PC Computer - Stardew Valley - Marnie_42: -3654393847842487883
+      PC Computer - Stardew Valley - Marnie_43: -2076905737342427175
+      PC Computer - Stardew Valley - Marnie_44: -1341708726873293292
+      PC Computer - Stardew Valley - Marnie_45: -6824096596498224260
+      PC Computer - Stardew Valley - Marnie_46: 2369854974881486061
+      PC Computer - Stardew Valley - Marnie_47: -73324346101699277
+      PC Computer - Stardew Valley - Marnie_48: -2191821610122727470
+      PC Computer - Stardew Valley - Marnie_49: 5982249485321554123
+      PC Computer - Stardew Valley - Marnie_5: -1973310588985029789
+      PC Computer - Stardew Valley - Marnie_50: 5625109121119624728
+      PC Computer - Stardew Valley - Marnie_51: 6838181007689972826
+      PC Computer - Stardew Valley - Marnie_52: 5953607689483138453
+      PC Computer - Stardew Valley - Marnie_53: -7886993405072350003
+      PC Computer - Stardew Valley - Marnie_54: 4513035266883754619
+      PC Computer - Stardew Valley - Marnie_55: 6785319460256405498
+      PC Computer - Stardew Valley - Marnie_56: 5022816211531686302
+      PC Computer - Stardew Valley - Marnie_57: 7934267607361364609
+      PC Computer - Stardew Valley - Marnie_58: 826586170483009331
+      PC Computer - Stardew Valley - Marnie_59: -7288006885821796169
+      PC Computer - Stardew Valley - Marnie_6: 6110121316804153870
+      PC Computer - Stardew Valley - Marnie_60: 728475235156239830
+      PC Computer - Stardew Valley - Marnie_61: -2219628004599176742
+      PC Computer - Stardew Valley - Marnie_62: 5828602827243452171
+      PC Computer - Stardew Valley - Marnie_63: 5269571899416199125
+      PC Computer - Stardew Valley - Marnie_64: 922517115222429763
+      PC Computer - Stardew Valley - Marnie_65: -7741273040700267320
+      PC Computer - Stardew Valley - Marnie_66: -3418959196375360476
+      PC Computer - Stardew Valley - Marnie_67: 4612029448278293966
+      PC Computer - Stardew Valley - Marnie_68: -654287596723856018
+      PC Computer - Stardew Valley - Marnie_69: -3293752984014582866
+      PC Computer - Stardew Valley - Marnie_7: 6442830894404412374
+      PC Computer - Stardew Valley - Marnie_70: -731097840377402779
+      PC Computer - Stardew Valley - Marnie_71: 8603310554795544444
+      PC Computer - Stardew Valley - Marnie_72: 1225168834963731330
+      PC Computer - Stardew Valley - Marnie_73: -5080985141571539002
+      PC Computer - Stardew Valley - Marnie_74: -4948197140118203626
+      PC Computer - Stardew Valley - Marnie_75: 4093836974983075285
+      PC Computer - Stardew Valley - Marnie_76: -8986946166608616821
+      PC Computer - Stardew Valley - Marnie_77: -2332731073666900814
+      PC Computer - Stardew Valley - Marnie_78: -6145801252130722204
+      PC Computer - Stardew Valley - Marnie_79: 1331295651292992568
+      PC Computer - Stardew Valley - Marnie_8: -7066986877993569783
+      PC Computer - Stardew Valley - Marnie_80: 9096234609948795954
+      PC Computer - Stardew Valley - Marnie_81: -6420707900214877520
+      PC Computer - Stardew Valley - Marnie_82: 8087188701901594902
+      PC Computer - Stardew Valley - Marnie_83: -8542529409787189191
+      PC Computer - Stardew Valley - Marnie_84: -5671398014393047537
+      PC Computer - Stardew Valley - Marnie_85: -3911763166367583472
+      PC Computer - Stardew Valley - Marnie_86: 3336155662772487395
+      PC Computer - Stardew Valley - Marnie_87: -3215988559418668039
+      PC Computer - Stardew Valley - Marnie_88: 7536474451925993710
+      PC Computer - Stardew Valley - Marnie_89: 473184418339771517
+      PC Computer - Stardew Valley - Marnie_9: 31584448604994263
+      PC Computer - Stardew Valley - Marnie_90: -164055816805237456
+      PC Computer - Stardew Valley - Marnie_91: -7024848637501270871
+      PC Computer - Stardew Valley - Marnie_92: -6364572530636769976
+      PC Computer - Stardew Valley - Marnie_93: 509736354219771830
+      PC Computer - Stardew Valley - Marnie_94: -8212295878887045211
+      PC Computer - Stardew Valley - Marnie_95: 1543616152358380790
+      PC Computer - Stardew Valley - Marnie_96: -5062929202098318294
+      PC Computer - Stardew Valley - Marnie_97: 749895446761044966
+      PC Computer - Stardew Valley - Marnie_98: 469351168643932233
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

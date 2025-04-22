@@ -347,6 +347,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -2035,7 +2061,83 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PC Computer - Stardew Valley - Caroline_0: -1328071369652451469
+      PC Computer - Stardew Valley - Caroline_1: -202730046465673519
+      PC Computer - Stardew Valley - Caroline_10: 9128457676324249120
+      PC Computer - Stardew Valley - Caroline_11: -8362109351840235671
+      PC Computer - Stardew Valley - Caroline_12: 1233299186185282139
+      PC Computer - Stardew Valley - Caroline_13: -8060416717579161610
+      PC Computer - Stardew Valley - Caroline_14: 6410510601032169850
+      PC Computer - Stardew Valley - Caroline_15: 2279239263239300488
+      PC Computer - Stardew Valley - Caroline_16: 1767909858999610952
+      PC Computer - Stardew Valley - Caroline_17: 1261870617483535460
+      PC Computer - Stardew Valley - Caroline_18: 5509362987361349107
+      PC Computer - Stardew Valley - Caroline_19: -964246696209071736
+      PC Computer - Stardew Valley - Caroline_2: -667022624381943641
+      PC Computer - Stardew Valley - Caroline_20: 8707857615429677795
+      PC Computer - Stardew Valley - Caroline_21: 7440189153649982135
+      PC Computer - Stardew Valley - Caroline_22: 6277806664482392260
+      PC Computer - Stardew Valley - Caroline_23: 8723970380478025324
+      PC Computer - Stardew Valley - Caroline_24: 2382916518646850466
+      PC Computer - Stardew Valley - Caroline_25: 8600411236098529997
+      PC Computer - Stardew Valley - Caroline_26: 8133429882885356654
+      PC Computer - Stardew Valley - Caroline_27: 1230449363213990858
+      PC Computer - Stardew Valley - Caroline_28: -5197098091833367643
+      PC Computer - Stardew Valley - Caroline_29: 7671023670249437594
+      PC Computer - Stardew Valley - Caroline_3: -8533194155563282006
+      PC Computer - Stardew Valley - Caroline_30: -3903821591203890039
+      PC Computer - Stardew Valley - Caroline_31: -4065334432321208635
+      PC Computer - Stardew Valley - Caroline_32: -4194321469574651493
+      PC Computer - Stardew Valley - Caroline_33: 3416909734254939882
+      PC Computer - Stardew Valley - Caroline_34: 2760065994744478808
+      PC Computer - Stardew Valley - Caroline_35: 5615810342736478411
+      PC Computer - Stardew Valley - Caroline_36: -8756827755835786581
+      PC Computer - Stardew Valley - Caroline_37: 8761430750149212649
+      PC Computer - Stardew Valley - Caroline_38: -6364270103651745343
+      PC Computer - Stardew Valley - Caroline_39: -7441641626952165643
+      PC Computer - Stardew Valley - Caroline_4: -7917716663310423442
+      PC Computer - Stardew Valley - Caroline_40: 4407364985750889766
+      PC Computer - Stardew Valley - Caroline_41: -5412457852630723460
+      PC Computer - Stardew Valley - Caroline_42: -6309395323450656957
+      PC Computer - Stardew Valley - Caroline_43: -8086039041851165451
+      PC Computer - Stardew Valley - Caroline_44: -6315624614927523894
+      PC Computer - Stardew Valley - Caroline_45: 1551104970400319155
+      PC Computer - Stardew Valley - Caroline_46: -653620364821838943
+      PC Computer - Stardew Valley - Caroline_47: -5000141563885866151
+      PC Computer - Stardew Valley - Caroline_48: 3854267336923500790
+      PC Computer - Stardew Valley - Caroline_49: 7806827231662689397
+      PC Computer - Stardew Valley - Caroline_5: 6886782191626265498
+      PC Computer - Stardew Valley - Caroline_50: 4100622500952419104
+      PC Computer - Stardew Valley - Caroline_51: 6407053067525218310
+      PC Computer - Stardew Valley - Caroline_52: 2661734648050012384
+      PC Computer - Stardew Valley - Caroline_53: -350192084002386562
+      PC Computer - Stardew Valley - Caroline_54: -9129074424039146329
+      PC Computer - Stardew Valley - Caroline_55: 4739693337527781570
+      PC Computer - Stardew Valley - Caroline_56: 5427774213365499639
+      PC Computer - Stardew Valley - Caroline_57: 3962254753333849789
+      PC Computer - Stardew Valley - Caroline_58: -2055042617521967057
+      PC Computer - Stardew Valley - Caroline_59: 8798937353616027649
+      PC Computer - Stardew Valley - Caroline_6: 8915331401853449070
+      PC Computer - Stardew Valley - Caroline_60: -7348430714664835048
+      PC Computer - Stardew Valley - Caroline_61: -7969854216018893038
+      PC Computer - Stardew Valley - Caroline_62: -4772589591890361255
+      PC Computer - Stardew Valley - Caroline_63: -1849512380722368964
+      PC Computer - Stardew Valley - Caroline_64: 5026452410075610624
+      PC Computer - Stardew Valley - Caroline_65: 6043745415149734662
+      PC Computer - Stardew Valley - Caroline_66: -1890435073434176916
+      PC Computer - Stardew Valley - Caroline_67: 5505602830725236067
+      PC Computer - Stardew Valley - Caroline_68: 9144923566599222681
+      PC Computer - Stardew Valley - Caroline_69: 5392807730166944479
+      PC Computer - Stardew Valley - Caroline_7: 8374341218405328567
+      PC Computer - Stardew Valley - Caroline_70: -2117965028706917568
+      PC Computer - Stardew Valley - Caroline_71: 5159642055458117672
+      PC Computer - Stardew Valley - Caroline_72: 2394773630269629210
+      PC Computer - Stardew Valley - Caroline_73: 2117722536103611184
+      PC Computer - Stardew Valley - Caroline_74: -7714297232121987292
+      PC Computer - Stardew Valley - Caroline_75: -7159692509421290380
+      PC Computer - Stardew Valley - Caroline_8: -4926908965383655883
+      PC Computer - Stardew Valley - Caroline_9: -559680679855200230
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -449,6 +449,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -2885,7 +2911,117 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PC Computer - Stardew Valley - Harvey_0: 5729467024973319932
+      PC Computer - Stardew Valley - Harvey_1: -1663934887491472512
+      PC Computer - Stardew Valley - Harvey_10: 5733368940687600623
+      PC Computer - Stardew Valley - Harvey_100: -5186823902495000679
+      PC Computer - Stardew Valley - Harvey_101: -2288972735414023451
+      PC Computer - Stardew Valley - Harvey_102: 5898551133376024501
+      PC Computer - Stardew Valley - Harvey_103: -5973388427353511291
+      PC Computer - Stardew Valley - Harvey_104: 3408335184417793352
+      PC Computer - Stardew Valley - Harvey_105: 7656876983675263198
+      PC Computer - Stardew Valley - Harvey_106: -3211581406543021192
+      PC Computer - Stardew Valley - Harvey_107: -1977684348843245329
+      PC Computer - Stardew Valley - Harvey_108: 3144096061059212652
+      PC Computer - Stardew Valley - Harvey_109: 4104706656795212326
+      PC Computer - Stardew Valley - Harvey_11: -4028538878912268484
+      PC Computer - Stardew Valley - Harvey_12: 6692545284441122016
+      PC Computer - Stardew Valley - Harvey_13: 4957241920049587678
+      PC Computer - Stardew Valley - Harvey_14: -2424309945913875845
+      PC Computer - Stardew Valley - Harvey_15: -6411538578537642097
+      PC Computer - Stardew Valley - Harvey_16: -943614682431811826
+      PC Computer - Stardew Valley - Harvey_17: 8485343463446547970
+      PC Computer - Stardew Valley - Harvey_18: -6016565237549074954
+      PC Computer - Stardew Valley - Harvey_19: -78784013918435482
+      PC Computer - Stardew Valley - Harvey_2: 2261418372817050665
+      PC Computer - Stardew Valley - Harvey_20: 8968643129503038790
+      PC Computer - Stardew Valley - Harvey_21: -8037406880985806997
+      PC Computer - Stardew Valley - Harvey_22: 1864104190433422716
+      PC Computer - Stardew Valley - Harvey_23: -3044777428873549812
+      PC Computer - Stardew Valley - Harvey_24: -2927487101442988892
+      PC Computer - Stardew Valley - Harvey_25: 5369635989608243053
+      PC Computer - Stardew Valley - Harvey_26: 3113870880073098302
+      PC Computer - Stardew Valley - Harvey_27: -8268879202351815058
+      PC Computer - Stardew Valley - Harvey_28: -5103844531965423141
+      PC Computer - Stardew Valley - Harvey_29: 3966394870873060170
+      PC Computer - Stardew Valley - Harvey_3: 4076151853882712543
+      PC Computer - Stardew Valley - Harvey_30: 6302642463768063340
+      PC Computer - Stardew Valley - Harvey_31: -9138829538573746479
+      PC Computer - Stardew Valley - Harvey_32: -8175578519187780494
+      PC Computer - Stardew Valley - Harvey_33: 7324546585103440885
+      PC Computer - Stardew Valley - Harvey_34: -2247304578452824554
+      PC Computer - Stardew Valley - Harvey_35: -4480626864964930967
+      PC Computer - Stardew Valley - Harvey_36: 893851135091251315
+      PC Computer - Stardew Valley - Harvey_37: 6607955010539718525
+      PC Computer - Stardew Valley - Harvey_38: 1765955944364280138
+      PC Computer - Stardew Valley - Harvey_39: 867340290983855907
+      PC Computer - Stardew Valley - Harvey_4: -2638334381288680009
+      PC Computer - Stardew Valley - Harvey_40: 1246547373493822762
+      PC Computer - Stardew Valley - Harvey_41: 130444900799089482
+      PC Computer - Stardew Valley - Harvey_42: -7706594719300083423
+      PC Computer - Stardew Valley - Harvey_43: 3237622905979479154
+      PC Computer - Stardew Valley - Harvey_44: -5269832405495871564
+      PC Computer - Stardew Valley - Harvey_45: 6412198271025156597
+      PC Computer - Stardew Valley - Harvey_46: 3868152475714842266
+      PC Computer - Stardew Valley - Harvey_47: 7620547839111660879
+      PC Computer - Stardew Valley - Harvey_48: 8415225543485592810
+      PC Computer - Stardew Valley - Harvey_49: -4526405879874129983
+      PC Computer - Stardew Valley - Harvey_5: 8768825413533989554
+      PC Computer - Stardew Valley - Harvey_50: -330295988706371386
+      PC Computer - Stardew Valley - Harvey_51: -6233934320385789807
+      PC Computer - Stardew Valley - Harvey_52: 7953839649287067182
+      PC Computer - Stardew Valley - Harvey_53: -8808155819889556301
+      PC Computer - Stardew Valley - Harvey_54: 3147511980030633183
+      PC Computer - Stardew Valley - Harvey_55: -4248476525560859122
+      PC Computer - Stardew Valley - Harvey_56: 1203743107819917106
+      PC Computer - Stardew Valley - Harvey_57: 8367139176905132188
+      PC Computer - Stardew Valley - Harvey_58: -4962375627665412939
+      PC Computer - Stardew Valley - Harvey_59: 1565182026479538418
+      PC Computer - Stardew Valley - Harvey_6: 7405086966781638698
+      PC Computer - Stardew Valley - Harvey_60: -9182799253715062267
+      PC Computer - Stardew Valley - Harvey_61: 6863073950325975347
+      PC Computer - Stardew Valley - Harvey_62: -428501462086161690
+      PC Computer - Stardew Valley - Harvey_63: -3648810504212938144
+      PC Computer - Stardew Valley - Harvey_64: -537360123734526358
+      PC Computer - Stardew Valley - Harvey_65: 108296897980257559
+      PC Computer - Stardew Valley - Harvey_66: 7566523366184499294
+      PC Computer - Stardew Valley - Harvey_67: -5824770059835042851
+      PC Computer - Stardew Valley - Harvey_68: 7416805995996160505
+      PC Computer - Stardew Valley - Harvey_69: -8720783958704762036
+      PC Computer - Stardew Valley - Harvey_7: 8525956689001539139
+      PC Computer - Stardew Valley - Harvey_70: 5390239242454979210
+      PC Computer - Stardew Valley - Harvey_71: -8138416141485590386
+      PC Computer - Stardew Valley - Harvey_72: 4626605437823750493
+      PC Computer - Stardew Valley - Harvey_73: -524715124149180948
+      PC Computer - Stardew Valley - Harvey_74: -2825080245072783481
+      PC Computer - Stardew Valley - Harvey_75: 3151264669231466735
+      PC Computer - Stardew Valley - Harvey_76: -8820246992988578810
+      PC Computer - Stardew Valley - Harvey_77: 2140553116095200500
+      PC Computer - Stardew Valley - Harvey_78: -6136830565313143734
+      PC Computer - Stardew Valley - Harvey_79: 3197544874246985227
+      PC Computer - Stardew Valley - Harvey_8: 6596754008558895209
+      PC Computer - Stardew Valley - Harvey_80: -2038389656620422523
+      PC Computer - Stardew Valley - Harvey_81: 478085714098881
+      PC Computer - Stardew Valley - Harvey_82: 7744120620557112092
+      PC Computer - Stardew Valley - Harvey_83: -8174375239334361723
+      PC Computer - Stardew Valley - Harvey_84: -3891792139646347081
+      PC Computer - Stardew Valley - Harvey_85: 3822379099925155418
+      PC Computer - Stardew Valley - Harvey_86: 9021622652111163143
+      PC Computer - Stardew Valley - Harvey_87: 6676234368977566873
+      PC Computer - Stardew Valley - Harvey_88: -5805550562253339260
+      PC Computer - Stardew Valley - Harvey_89: 3868477643823016722
+      PC Computer - Stardew Valley - Harvey_9: -3556347732120030622
+      PC Computer - Stardew Valley - Harvey_90: 1072224379599556827
+      PC Computer - Stardew Valley - Harvey_91: 5813092412418292922
+      PC Computer - Stardew Valley - Harvey_92: -6987243499388921916
+      PC Computer - Stardew Valley - Harvey_93: -3723212852807905628
+      PC Computer - Stardew Valley - Harvey_94: -4117751231249136182
+      PC Computer - Stardew Valley - Harvey_95: 2245107206792415489
+      PC Computer - Stardew Valley - Harvey_96: 8090158486766631831
+      PC Computer - Stardew Valley - Harvey_97: 367685654562661714
+      PC Computer - Stardew Valley - Harvey_98: -3898477364881079915
+      PC Computer - Stardew Valley - Harvey_99: 4122388622661418025
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

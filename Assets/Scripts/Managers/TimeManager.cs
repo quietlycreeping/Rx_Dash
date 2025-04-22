@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
+using System;
 
 
 public class TimeManager : MonoBehaviour
@@ -12,8 +14,10 @@ public class TimeManager : MonoBehaviour
     public AudioSource warningJingle;
 
 //================= Variables =================//
-    [Header("Component")]
+    [Header("Components")]
     public TextMeshProUGUI timerText;
+    public Image clock;
+    public Image bar;
 
     [Header("Time Settings")]
     public float levelTime;
@@ -24,6 +28,8 @@ public class TimeManager : MonoBehaviour
     bool hasLimit = true;
     float timerLimit = 0;
     bool overTime = false;
+
+    Color32 red = new Color32(212,31,27,255);
 
     //================= Core Functions =================//
     public void Awake()
@@ -46,7 +52,8 @@ public class TimeManager : MonoBehaviour
                 currentTime = 0;
                 timerLimit = levelTime;
                 overTime = true;
-                timerText.color = Color.red;
+                bar.color = red;
+                clock.color = red; 
             }
             else
             {
@@ -61,7 +68,8 @@ public class TimeManager : MonoBehaviour
 
     }
 
-//================= Functions =================//
+
+    //================= Functions =================//
     void DisplayTime(float time)
     {
         if(time < 0)

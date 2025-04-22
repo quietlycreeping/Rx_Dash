@@ -182,54 +182,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Room_Builder_free_32x32_9
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 52188d64312126b60800000000000000
-      internalID: 7737766983778205989
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Room_Builder_free_32x32_0
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 288
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8e6a25f7dc01e28408a2f8822ab42b25
-      internalID: 224253295
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Room_Builder_free_32x32_4
       rect:
         serializedVersion: 2
-        x: 281
+        x: 286
         y: 386
         width: 32
         height: 32
@@ -243,50 +199,6 @@ TextureImporter:
       bones: []
       spriteID: bd8bb0ec8f11aa64189d32e497910441
       internalID: -154560373
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Room_Builder_free_32x32_5
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aed7d1dfdd861a24bb0423d27eaa5b0e
-      internalID: 1384625807
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Room_Builder_free_32x32_6
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3afc2c19f7c4e741b5283b68c6398f4
-      internalID: -813277637
       vertices: []
       indices: 
       edges: []
@@ -317,7 +229,7 @@ TextureImporter:
       name: Room_Builder_free_32x32_8
       rect:
         serializedVersion: 2
-        x: 284
+        x: 286
         y: 418
         width: 32
         height: 32
@@ -340,7 +252,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 352
-        y: 321
+        y: 320
         width: 32
         height: 32
       alignment: 0
@@ -405,8 +317,8 @@ TextureImporter:
       name: Room_Builder_free_32x32_15
       rect:
         serializedVersion: 2
-        x: 383
-        y: 321
+        x: 384
+        y: 320
         width: 32
         height: 32
       alignment: 0
@@ -449,7 +361,7 @@ TextureImporter:
       name: Room_Builder_free_32x32_2
       rect:
         serializedVersion: 2
-        x: 93
+        x: 94
         y: 386
         width: 32
         height: 32
@@ -463,6 +375,28 @@ TextureImporter:
       bones: []
       spriteID: f00347fa07262d4448c437abc6173e62
       internalID: -152396133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Room_Builder_free_32x32_0
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1da486d0a7709441a2a7ce8e0ee9200
+      internalID: 224253295
       vertices: []
       indices: 
       edges: []
