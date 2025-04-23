@@ -2283,8 +2283,8 @@ MonoBehaviour:
   timerText: {fileID: 2137434787}
   clock: {fileID: 1684628761}
   bar: {fileID: 7526011650356373567}
-  levelTime: 300
-  warningTime: 45
+  levelTime: 90
+  warningTime: 20
 --- !u!4 &823459985
 Transform:
   m_ObjectHideFlags: 0
@@ -8498,6 +8498,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Customer (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2321007478842916296, guid: 15edc04d2176721439939b92e3681bb3, type: 3}
+      propertyPath: maxWait
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321007478842916296, guid: 15edc04d2176721439939b92e3681bb3, type: 3}
+      propertyPath: quickWait
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321007478842916296, guid: 15edc04d2176721439939b92e3681bb3, type: 3}
+      propertyPath: arriveTime
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321007478842916296, guid: 15edc04d2176721439939b92e3681bb3, type: 3}
+      propertyPath: queManager
+      value: 
+      objectReference: {fileID: 253185533}
+    - target: {fileID: 2321007478842916296, guid: 15edc04d2176721439939b92e3681bb3, type: 3}
+      propertyPath: averageWait
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4519756757883429150, guid: 15edc04d2176721439939b92e3681bb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.66
@@ -8672,6 +8692,26 @@ PrefabInstance:
     - target: {fileID: 7087522277101580005, guid: ae184f57d8085d84aae7a7b32c52c062, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040280425243158507, guid: ae184f57d8085d84aae7a7b32c52c062, type: 3}
+      propertyPath: maxWait
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040280425243158507, guid: ae184f57d8085d84aae7a7b32c52c062, type: 3}
+      propertyPath: quickWait
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040280425243158507, guid: ae184f57d8085d84aae7a7b32c52c062, type: 3}
+      propertyPath: arriveTime
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040280425243158507, guid: ae184f57d8085d84aae7a7b32c52c062, type: 3}
+      propertyPath: queManager
+      value: 
+      objectReference: {fileID: 253185533}
+    - target: {fileID: 9040280425243158507, guid: ae184f57d8085d84aae7a7b32c52c062, type: 3}
+      propertyPath: averageWait
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -9215,6 +9255,26 @@ PrefabInstance:
     - target: {fileID: 4908890133164339352, guid: 7be2e7a90c81f994f8c89c12cac511d0, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7064992614002459662, guid: 7be2e7a90c81f994f8c89c12cac511d0, type: 3}
+      propertyPath: maxWait
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7064992614002459662, guid: 7be2e7a90c81f994f8c89c12cac511d0, type: 3}
+      propertyPath: quickWait
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7064992614002459662, guid: 7be2e7a90c81f994f8c89c12cac511d0, type: 3}
+      propertyPath: arriveTime
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 7064992614002459662, guid: 7be2e7a90c81f994f8c89c12cac511d0, type: 3}
+      propertyPath: queManager
+      value: 
+      objectReference: {fileID: 253185533}
+    - target: {fileID: 7064992614002459662, guid: 7be2e7a90c81f994f8c89c12cac511d0, type: 3}
+      propertyPath: averageWait
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7120207167068673736, guid: 7be2e7a90c81f994f8c89c12cac511d0, type: 3}
       propertyPath: m_Name
@@ -9784,6 +9844,26 @@ PrefabInstance:
     - target: {fileID: 2426950238969383878, guid: 75c3e44f3187cb84cae7608937c7f4ff, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2716528514384891820, guid: 75c3e44f3187cb84cae7608937c7f4ff, type: 3}
+      propertyPath: maxWait
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2716528514384891820, guid: 75c3e44f3187cb84cae7608937c7f4ff, type: 3}
+      propertyPath: quickWait
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2716528514384891820, guid: 75c3e44f3187cb84cae7608937c7f4ff, type: 3}
+      propertyPath: arriveTime
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 2716528514384891820, guid: 75c3e44f3187cb84cae7608937c7f4ff, type: 3}
+      propertyPath: queManager
+      value: 
+      objectReference: {fileID: 253185533}
+    - target: {fileID: 2716528514384891820, guid: 75c3e44f3187cb84cae7608937c7f4ff, type: 3}
+      propertyPath: averageWait
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 8413690798228523790, guid: 75c3e44f3187cb84cae7608937c7f4ff, type: 3}
       propertyPath: m_Name
@@ -10922,6 +11002,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1402697058922855525, guid: ae291188476a76542aa46ec3699ae483, type: 3}
+      propertyPath: maxWait
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1402697058922855525, guid: ae291188476a76542aa46ec3699ae483, type: 3}
+      propertyPath: quickWait
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1402697058922855525, guid: ae291188476a76542aa46ec3699ae483, type: 3}
+      propertyPath: arriveTime
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 1402697058922855525, guid: ae291188476a76542aa46ec3699ae483, type: 3}
+      propertyPath: queManager
+      value: 
+      objectReference: {fileID: 253185533}
+    - target: {fileID: 1402697058922855525, guid: ae291188476a76542aa46ec3699ae483, type: 3}
+      propertyPath: averageWait
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 3442745753779477962, guid: ae291188476a76542aa46ec3699ae483, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
@@ -11165,6 +11265,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3360254411569698430, guid: f440ab86b7d35c3498b56e6b50a963e7, type: 3}
+      propertyPath: maxWait
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3360254411569698430, guid: f440ab86b7d35c3498b56e6b50a963e7, type: 3}
+      propertyPath: quickWait
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3360254411569698430, guid: f440ab86b7d35c3498b56e6b50a963e7, type: 3}
+      propertyPath: arriveTime
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3360254411569698430, guid: f440ab86b7d35c3498b56e6b50a963e7, type: 3}
+      propertyPath: queManager
+      value: 
+      objectReference: {fileID: 253185533}
+    - target: {fileID: 3360254411569698430, guid: f440ab86b7d35c3498b56e6b50a963e7, type: 3}
+      propertyPath: averageWait
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 5055900045302553540, guid: f440ab86b7d35c3498b56e6b50a963e7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.77
