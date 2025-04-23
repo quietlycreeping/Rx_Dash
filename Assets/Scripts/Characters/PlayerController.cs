@@ -63,7 +63,7 @@ public class PlayerController : MonoBehaviour
     IEnumerator MoveToTarget()
     {
         agent.isStopped = false;
-        while (Vector3.Distance(transform.position, playerDestination) > 0.1)
+        while (Vector3.Distance(transform.position, playerDestination) > .5)
         {
             isWalk = true;
             agent.destination = playerDestination;

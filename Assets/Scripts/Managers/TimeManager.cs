@@ -6,15 +6,12 @@ using UnityEngine.UI;
 using System;
 
 
+[RequireComponent(typeof(AudioSource))]
 public class TimeManager : MonoBehaviour
 {
-
-    public UIManager uIManager;
-    
-    public AudioSource warningJingle;
-
 //================= Variables =================//
     [Header("Components")]
+    AudioSource warningJingle;
     public TextMeshProUGUI timerText;
     public Image clock;
     public Image bar;
@@ -39,7 +36,8 @@ public class TimeManager : MonoBehaviour
 
     public void Start()
     {
-        warningJingle.PlayDelayed(levelTime-warningTime);
+        warningJingle = GetComponent<AudioSource>();
+        StartCoroutine(WarningJinglePlay());
     }
     public void Update()
     {
@@ -57,10 +55,8 @@ public class TimeManager : MonoBehaviour
             }
             else
             {
-                Time.timeScale = 0;
-                enabled = false;
-                Debug.Log("Gameover");
-                uIManager.GoToPage(3);
+                GameManager.instance.GameOver();
+                hasLimit=false;
             }
         }
 
@@ -81,5 +77,11 @@ public class TimeManager : MonoBehaviour
         float seconds = Mathf.FloorToInt(time % 60);
 
         timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+    }
+
+    IEnumerator WarningJinglePlay()
+    {
+        yield return new WaitForSeconds(levelTime-warningTime);
+        warningJingle.Play();
     }
 }

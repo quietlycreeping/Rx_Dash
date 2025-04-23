@@ -1,13 +1,15 @@
 using UnityEngine;
 
-
+[RequireComponent(typeof(AudioSource))]
 public class OnHover : MonoBehaviour
 {
-    public AudioSource soundEffect;
+    //public 
+    AudioSource soundEffect;
     Renderer hoverMaterial;
     private void Start()
     {
         hoverMaterial = GetComponent<Renderer>();
+        soundEffect = GetComponent<AudioSource>();
     }
     void OnMouseOver()
     {

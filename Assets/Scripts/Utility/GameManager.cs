@@ -2,8 +2,10 @@
  Author:     OU CSI 4380 provided code
  Description: Class which manages the game
 ==========================================================*/
+using Mono.Cecil.Cil;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class GameManager : MonoBehaviour
 {
     // The global instance for other scripts to reference
@@ -12,8 +14,7 @@ public class GameManager : MonoBehaviour
     [Header("References:")]
     [Tooltip("The UIManager component which manages the current scene's UI")]
     public UIManager uiManager = null;
-    [Tooltip("The player gameobject")]
-    public GameObject player = null;
+    AudioSource levelMusic;
 
     [Header("Scores")]
     [Tooltip("The player's score")]
@@ -62,27 +63,16 @@ public class GameManager : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+
     }
 
     /* <summary>
      Description:
      Standard Unity function called once before the first update
-     Input: 
-     none
-     Return: 
-     void (no return)
-     </summary> */
+    Less urgent startup behaviors*/
     private void Start()
     {
-        // Less urgent startup behaviors, like loading highscores
-        if (PlayerPrefs.HasKey("highscore"))
-        {
-            highScore = PlayerPrefs.GetInt("highscore");
-        }
-        if (PlayerPrefs.HasKey("score"))
-        {
-            score = PlayerPrefs.GetInt("score");
-        }
+        levelMusic = GetComponent<AudioSource>();
     }
 
 
@@ -152,6 +142,8 @@ public class GameManager : MonoBehaviour
         if (gameOverEffect != null)
         {
             Instantiate(gameOverEffect, transform.position, transform.rotation, null);
+            Time.timeScale = 0;
+            levelMusic.volume = 0.5f;
         }
         if (uiManager != null)
         {

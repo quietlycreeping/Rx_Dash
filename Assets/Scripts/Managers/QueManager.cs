@@ -8,29 +8,53 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class queManager : MonoBehaviour
+public class QueManager : MonoBehaviour
 {
+    CustomerController customerController;
 //================= Variables =================//
     [Tooltip("List of customer gameObjects")]
     public List<GameObject> customers = new List<GameObject>();
+    
+    //hardcoded location spots that are children of the queManager
+    List <Vector3>QueSpots;
+    int spotNumber;
 
-    GameObject[] activeCustomers;
-
+   //list of customers in line
+    List <GameObject>CustomersQue=new List<GameObject>();
 //================= Core Functions =================//
     // Update is called once per frame
-    void Awake()
+    private void Awake()
     {
-        GameObject[] activeCustomers = new GameObject[5];
+        spotNumber = transform.childCount;
+        QueSpots = new List<Vector3>();
+        CustomersQue = new List<GameObject>(new GameObject[spotNumber]); 
+        
+        //queSpots and customerQue populate 
+        for (int i =0;i<spotNumber;i++)
+        {
+            QueSpots.Add(transform.GetChild(i).position);
+        }
     }
 
-//================= Functions =================//
-    void updateActiveQue(List<GameObject> customers)
+    private void Update()
     {
-        int index = 0;
 
-        while (activeCustomers[index] == null)
+    }
+
+
+
+    //================= Functions =================//
+    public void QueNewCust(GameObject customer)
+    {   
+        var customerController = customer.GetComponent<CustomerController>();
+        for (int i=0;i<spotNumber;i++)
         {
-            index ++;
+            if (CustomersQue[i] == null)
+            {
+                CustomersQue[i] = customer;
+                StartCoroutine(customerController.LineUp(QueSpots[i]));
+                break;
+            }
         }
     }
 }

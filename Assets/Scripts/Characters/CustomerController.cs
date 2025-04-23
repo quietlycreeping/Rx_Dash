@@ -1,15 +1,20 @@
 using System;
 using System.Collections;
+using UnityEditor;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using System.Collections.Generic;
-using System.Numerics;
-using JetBrains.Annotations;
-using UnityEditor.Rendering;
+using UnityEngine.AI;
 
-public class Customer : MonoBehaviour
+[RequireComponent(typeof(NavMeshAgent))]
+[RequireComponent(typeof(AudioSource))]
+public class CustomerController : MonoBehaviour
 {
-//================= Variables =================//
+//================= Variables =================//    
+    [Header("Components")]
+    public QueManager queManager;
+    AudioSource custArriveChime;
+    NavMeshAgent agent;
+    //GameObject customer;
+
     [Header("Bio")]
     [Tooltip("Customer first name")]
     public string firstName;
@@ -33,22 +38,42 @@ public class Customer : MonoBehaviour
     public float quickWait;
     [Tooltip("Time customer will be content to have the service be finished in.")]
     public float maxWait;
-    private UnityEngine.Vector2 newPositon;
 
     //================= Core Functions =================//
-    void Awake()
+    private void Awake() 
     {
+        agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
+    }
+
+    private void Start()
+    {
+        custArriveChime = GetComponent<AudioSource>();
         StartCoroutine(CustomerArrive());
     }
-    void Start()
-    {
-        newPositon = new UnityEngine.Vector2(4f,-3.5f);
-    }
+
     //================= Functions =================//
+    public IEnumerator LineUp(Vector3 queDestination)
+    {
+        agent.isStopped = false;
+        while (Vector3.Distance(transform.position, queDestination) > 0.1f)
+        {
+            agent.SetDestination(queDestination);
+            yield return null;
+        }
+        agent.isStopped = true;
+    } 
+
     IEnumerator CustomerArrive()
     {
         yield return new WaitForSeconds(arriveTime);
         Debug.Log("Customer " + firstName + " arrived");
+        if (queManager != null)
+        {
+            queManager.QueNewCust(gameObject);
+            custArriveChime.Play();
+        }
     }
 }
- 
+
