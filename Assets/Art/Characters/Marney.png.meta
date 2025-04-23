@@ -1,46 +1,55 @@
 fileFormatVersion: 2
-guid: 192527f124bcd784794f7d9fe92d5c6f
+guid: c094220ee50843a4ba5a9008e3169220
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3007347946992614866
-    second: CharacterSheet_CharacterFront_0
+      213: 4574863815470054463
+    second: Marney_0
   - first:
-      213: -4401887970105912376
-    second: CharacterSheet_CharacterFront_1
+      213: -401064764931024764
+    second: Marney_1
   - first:
-      213: -7121525273169706590
-    second: CharacterSheet_CharacterFront_2
+      213: -1832287538417841705
+    second: Marney_2
   - first:
-      213: 1317232268871971278
-    second: CharacterSheet_CharacterFront_3
+      213: 3256413279856923330
+    second: Marney_3
   - first:
-      213: -4612441831689482104
-    second: CharacterSheet_CharacterFront_4
+      213: -7349765117101029621
+    second: Marney_4
   - first:
-      213: -4360188385029425823
-    second: CharacterSheet_CharacterFront_5
+      213: 3093546907412270658
+    second: Marney_5
   - first:
-      213: -8942399481028505324
-    second: CharacterSheet_CharacterFront_6
+      213: -8073826039205109235
+    second: Marney_6
   - first:
-      213: 4411540172903932707
-    second: CharacterSheet_CharacterFront_7
+      213: 3454766622590898543
+    second: Marney_7
   - first:
-      213: -3671862964777579655
-    second: CharacterSheet_CharacterFront_8
+      213: 6080571773952269841
+    second: Marney_8
   - first:
-      213: -230631582642789085
-    second: CharacterSheet_CharacterFront_9
+      213: 3491204566564744106
+    second: Marney_9
   - first:
-      213: -6999402986031034280
-    second: CharacterSheet_CharacterFront_10
+      213: 808082120108261517
+    second: Marney_10
   - first:
-      213: -2853254581368858591
-    second: CharacterSheet_CharacterFront_11
+      213: -3695355333515302119
+    second: Marney_11
   - first:
-      213: -4407482996654247040
-    second: CharacterSheet_CharacterFront_12
+      213: 1600220979213320995
+    second: Marney_12
+  - first:
+      213: -5840131109735120054
+    second: Marney_13
+  - first:
+      213: -8631179266670214554
+    second: Marney_14
+  - first:
+      213: -620222829705839169
+    second: Marney_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -84,10 +93,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 110
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -112,32 +121,6 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -188,287 +171,353 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle2_Front
+      name: Marney_0
       rect:
         serializedVersion: 2
-        x: 350
-        y: 700
-        width: 350
-        height: 350
+        x: 35
+        y: 1046
+        width: 170
+        height: 300
       alignment: 9
-      pivot: {x: 0.55, y: 0.16}
+      pivot: {x: 70, y: 15}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5504d406c99abe944b3cfbdcf3a4e12f
-      internalID: 1549263494
+      spriteID: f3c71e8c66e2d7f30800000000000000
+      internalID: 4574863815470054463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blick_Front
+      name: Marney_1
       rect:
         serializedVersion: 2
-        x: 700
-        y: 700
-        width: 350
-        height: 350
+        x: 205
+        y: 1046
+        width: 170
+        height: 300
       alignment: 9
-      pivot: {x: 0.55, y: 0.16}
+      pivot: {x: 70, y: 15}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2801989c76ef4e24e803ce200f3ecfb5
-      internalID: 715802523
+      spriteID: 4885c52a8b12f6af0800000000000000
+      internalID: -401064764931024764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pickup_Front
+      name: Marney_2
       rect:
         serializedVersion: 2
-        x: 1050
-        y: 700
-        width: 350
-        height: 350
+        x: 375
+        y: 1046
+        width: 170
+        height: 300
       alignment: 9
-      pivot: {x: 0.55, y: 0.16}
+      pivot: {x: 70, y: 15}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 10cf2e36ce0227d42b9e67a8ec4a6fd7
-      internalID: -1062440163
+      spriteID: 7d9ca3211386296e0800000000000000
+      internalID: -1832287538417841705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Talk1_Front
+      name: Marney_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 350
-        width: 350
-        height: 350
+        x: 545
+        y: 1046
+        width: 170
+        height: 300
       alignment: 9
-      pivot: {x: 0.55, y: 0.16}
+      pivot: {x: 70, y: 15}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 820f773dbf1760940bcf28de4944d416
-      internalID: 707817007
+      spriteID: 2c29cb3ff9a113d20800000000000000
+      internalID: 3256413279856923330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Talk2_Front
+      name: Marney_4
       rect:
         serializedVersion: 2
-        x: 350
-        y: 350
-        width: 350
-        height: 350
+        x: 35
+        y: 701
+        width: 170
+        height: 300
       alignment: 9
-      pivot: {x: 0.55, y: 0.16}
+      pivot: {x: 0.47058824, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 108c5153dcde52d4f8d06fd2a4ff6c57
-      internalID: -1744950199
+      spriteID: b07c2a41193600a90800000000000000
+      internalID: -7349765117101029621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Talk3_Front
+      name: Marney_5
       rect:
         serializedVersion: 2
-        x: 700
-        y: 350
-        width: 350
-        height: 350
+        x: 205
+        y: 701
+        width: 170
+        height: 300
       alignment: 9
-      pivot: {x: 0.55, y: 0.16}
+      pivot: {x: 70, y: 15}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 22a83ca8b3c14974a9f1603a0bb9832a
-      internalID: -625721189
+      spriteID: 24e0150a58c7eea20800000000000000
+      internalID: 3093546907412270658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Talk4_Front
+      name: Marney_6
       rect:
         serializedVersion: 2
-        x: 1050
-        y: 350
-        width: 350
-        height: 350
+        x: 375
+        y: 701
+        width: 170
+        height: 300
       alignment: 9
-      pivot: {x: 0.55, y: 0.16}
+      pivot: {x: 70, y: 15}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b688089826250a4478e7cbcec74feace
-      internalID: -1386313174
+      spriteID: d0261ea8ef104ff80800000000000000
+      internalID: -8073826039205109235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Talk5_Front
+      name: Marney_7
       rect:
         serializedVersion: 2
-        x: 1400
-        y: 350
-        width: 350
-        height: 350
+        x: 545
+        y: 701
+        width: 170
+        height: 300
       alignment: 9
-      pivot: {x: 0.55, y: 0.16}
+      pivot: {x: 70, y: 15}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1c1c0ff095586ec4fbd1e4960b29d876
-      internalID: 1951158351
+      spriteID: f61186960fbc1ff20800000000000000
+      internalID: 3454766622590898543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk1_Front
+      name: Marney_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 350
-        height: 350
+        x: 35
+        y: 356
+        width: 170
+        height: 300
       alignment: 9
-      pivot: {x: 0.55, y: 0.16}
+      pivot: {x: 70, y: 15}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1b6c05908d1f9884394f87c537ebc520
-      internalID: -1919236423
+      spriteID: 11e11b9efc7826450800000000000000
+      internalID: 6080571773952269841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk2_Front
+      name: Marney_9
       rect:
         serializedVersion: 2
-        x: 350
-        y: 0
-        width: 350
-        height: 350
+        x: 205
+        y: 356
+        width: 170
+        height: 300
       alignment: 9
-      pivot: {x: 0.55, y: 0.16}
+      pivot: {x: 70, y: 15}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: eca509bb63d116f4a9b1203410281514
-      internalID: -2034555885
+      spriteID: aab205c5e00437030800000000000000
+      internalID: 3491204566564744106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk3_Front
+      name: Marney_10
       rect:
         serializedVersion: 2
-        x: 700
-        y: 0
-        width: 350
-        height: 350
+        x: 375
+        y: 356
+        width: 170
+        height: 300
       alignment: 9
-      pivot: {x: 0.55, y: 0.16}
+      pivot: {x: 70, y: 15}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2758a8713f729e44b9b5d87684dc4db7
-      internalID: 224550830
+      spriteID: d80c5662862e63b00800000000000000
+      internalID: 808082120108261517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk4_Front
+      name: Marney_11
       rect:
         serializedVersion: 2
-        x: 1050
-        y: 0
-        width: 350
-        height: 350
+        x: 545
+        y: 356
+        width: 170
+        height: 300
       alignment: 9
-      pivot: {x: 0.55, y: 0.16}
+      pivot: {x: 70, y: 15}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9966ff5a1117e8d43b7c3d87148dbd64
-      internalID: 214244938
+      spriteID: 91ba9fa27e577bcc0800000000000000
+      internalID: -3695355333515302119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle1_Front
+      name: Marney_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 700
-        width: 350
-        height: 350
+        x: 35
+        y: 11
+        width: 170
+        height: 300
       alignment: 9
-      pivot: {x: 0.55, y: 0.16}
+      pivot: {x: 70, y: 15}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e293d73acdc50b842b9d046e5621cb66
-      internalID: 948498837
+      spriteID: 32343249080253610800000000000000
+      internalID: 1600220979213320995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marney_13
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 11
+        width: 170
+        height: 300
+      alignment: 9
+      pivot: {x: 70, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43c782b2bfa3fea0800000000000000
+      internalID: -5840131109735120054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marney_14
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 11
+        width: 170
+        height: 300
+      alignment: 9
+      pivot: {x: 70, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662c769df24e73880800000000000000
+      internalID: -8631179266670214554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marney_15
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 11
+        width: 170
+        height: 300
+      alignment: 9
+      pivot: {x: 70, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbdbbc95f968467f0800000000000000
+      internalID: -620222829705839169
       vertices: []
       indices: 
       edges: []
@@ -477,7 +526,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a9b3e672002f38948a9abfaefeb196a6
+    spriteID: bc293c804811e2943ace319a5f37c15b
     internalID: 0
     vertices: []
     indices: 
@@ -487,19 +536,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Blick_Front: 715802523
-      Idle1_Front: 948498837
-      Idle2_Front: 1549263494
-      Pickup_Front: -1062440163
-      Talk1_Front: 707817007
-      Talk2_Front: -1744950199
-      Talk3_Front: -625721189
-      Talk4_Front: -1386313174
-      Talk5_Front: 1951158351
-      Walk1_Front: -1919236423
-      Walk2_Front: -2034555885
-      Walk3_Front: 224550830
-      Walk4_Front: 214244938
+      Marney_0: 4574863815470054463
+      Marney_1: -401064764931024764
+      Marney_10: 808082120108261517
+      Marney_11: -3695355333515302119
+      Marney_12: 1600220979213320995
+      Marney_13: -5840131109735120054
+      Marney_14: -8631179266670214554
+      Marney_15: -620222829705839169
+      Marney_2: -1832287538417841705
+      Marney_3: 3256413279856923330
+      Marney_4: -7349765117101029621
+      Marney_5: 3093546907412270658
+      Marney_6: -8073826039205109235
+      Marney_7: 3454766622590898543
+      Marney_8: 6080571773952269841
+      Marney_9: 3491204566564744106
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

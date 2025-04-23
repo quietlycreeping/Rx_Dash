@@ -17,14 +17,14 @@ public class PlayerController : MonoBehaviour
     GameObject clickedObject;
     NavMeshAgent agent;
     Vector2 playerDestination;
-    Animator anim;
-    bool isWalk;
+    //Animator anim;
+    //bool isWalk;
 
     //================= Core Functions =================//
     private void Awake() 
     {
-        anim = GetComponent<Animator>();
-        isWalk = false;
+        //anim = GetComponent<Animator>();
+        //isWalk = false;
 
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        SwitchAnimation();
+        //SwitchAnimation();
 
         if(Input.GetMouseButtonDown(0))
         {
@@ -63,18 +63,18 @@ public class PlayerController : MonoBehaviour
     IEnumerator MoveToTarget()
     {
         agent.isStopped = false;
-        while (Vector3.Distance(transform.position, playerDestination) > .5)
+        while (Vector3.Distance(transform.position, playerDestination) > 0.5f)
         {
-            isWalk = true;
+            //isWalk = true;
             agent.destination = playerDestination;
             yield return null;
         }
-        isWalk=false;
+        //isWalk=false;
         agent.isStopped = true;
     }
 
-    void SwitchAnimation()
+    /*void SwitchAnimation()
     {
         anim.SetBool("Walk", isWalk);
-    }
+    }*/
 }

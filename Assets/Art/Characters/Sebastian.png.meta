@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: c9cac9a9b1b4df946a31bd6b06cde099
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9160374568290730385
+    second: Sebastian_0
+  - first:
+      213: 1159714608868089588
+    second: Sebastian_1
+  - first:
+      213: -8570328804524002535
+    second: Sebastian_2
+  - first:
+      213: 1557436041645336487
+    second: Sebastian_3
+  - first:
+      213: -8348129613432394836
+    second: Sebastian_4
+  - first:
+      213: 842689126443963082
+    second: Sebastian_5
+  - first:
+      213: 9034306516085761434
+    second: Sebastian_6
+  - first:
+      213: -7127673415304694139
+    second: Sebastian_7
+  - first:
+      213: -5549967413779682490
+    second: Sebastian_8
+  - first:
+      213: 612735768112308439
+    second: Sebastian_9
+  - first:
+      213: -7776327345382022039
+    second: Sebastian_10
+  - first:
+      213: 842220187789471357
+    second: Sebastian_11
+  - first:
+      213: 2673489015243673028
+    second: Sebastian_12
+  - first:
+      213: 7990484645337089713
+    second: Sebastian_13
+  - first:
+      213: 8784876016359966775
+    second: Sebastian_14
+  - first:
+      213: 7134934359116701191
+    second: Sebastian_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 110
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sebastian_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1039
+        width: 170
+        height: 320
+      alignment: 9
+      pivot: {x: 70, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e32872ddfcfd080800000000000000
+      internalID: -9160374568290730385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebastian_1
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1039
+        width: 170
+        height: 320
+      alignment: 9
+      pivot: {x: 70, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fed966da42281010800000000000000
+      internalID: 1159714608868089588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebastian_2
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1039
+        width: 170
+        height: 320
+      alignment: 9
+      pivot: {x: 70, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9137c0e1c53101980800000000000000
+      internalID: -8570328804524002535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebastian_3
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1039
+        width: 170
+        height: 320
+      alignment: 9
+      pivot: {x: 70, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a729a604df1d9510800000000000000
+      internalID: 1557436041645336487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebastian_4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 699
+        width: 170
+        height: 320
+      alignment: 9
+      pivot: {x: 0.4117647, y: 0.046875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab617cc85c752c80800000000000000
+      internalID: -8348129613432394836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebastian_5
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 699
+        width: 170
+        height: 320
+      alignment: 9
+      pivot: {x: 70, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2d6c5bb45d1bb00800000000000000
+      internalID: 842689126443963082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebastian_6
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 699
+        width: 170
+        height: 320
+      alignment: 9
+      pivot: {x: 70, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95e94b19ed406d70800000000000000
+      internalID: 9034306516085761434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebastian_7
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 699
+        width: 170
+        height: 320
+      alignment: 9
+      pivot: {x: 70, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586b4c5faca651d90800000000000000
+      internalID: -7127673415304694139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebastian_8
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 359
+        width: 170
+        height: 320
+      alignment: 9
+      pivot: {x: 70, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b2baaca0e8af2b0800000000000000
+      internalID: -5549967413779682490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebastian_9
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 359
+        width: 170
+        height: 320
+      alignment: 9
+      pivot: {x: 70, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0a2874fefd08800800000000000000
+      internalID: 612735768112308439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebastian_10
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 359
+        width: 170
+        height: 320
+      alignment: 9
+      pivot: {x: 70, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9642959ea7fe41490800000000000000
+      internalID: -7776327345382022039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebastian_11
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 359
+        width: 170
+        height: 320
+      alignment: 9
+      pivot: {x: 70, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7eaadb6cca20bb00800000000000000
+      internalID: 842220187789471357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebastian_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 19
+        width: 170
+        height: 320
+      alignment: 9
+      pivot: {x: 70, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd028838142a1520800000000000000
+      internalID: 2673489015243673028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebastian_13
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 19
+        width: 170
+        height: 320
+      alignment: 9
+      pivot: {x: 70, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6c7841377e3ee60800000000000000
+      internalID: 7990484645337089713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebastian_14
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 19
+        width: 170
+        height: 320
+      alignment: 9
+      pivot: {x: 70, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7380cfe41362ae970800000000000000
+      internalID: 8784876016359966775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sebastian_15
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 19
+        width: 170
+        height: 320
+      alignment: 9
+      pivot: {x: 70, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e51e24ff0640360800000000000000
+      internalID: 7134934359116701191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 00b1d30e74e286a448b6ef86aa391fc3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Sebastian_0: -9160374568290730385
+      Sebastian_1: 1159714608868089588
+      Sebastian_10: -7776327345382022039
+      Sebastian_11: 842220187789471357
+      Sebastian_12: 2673489015243673028
+      Sebastian_13: 7990484645337089713
+      Sebastian_14: 8784876016359966775
+      Sebastian_15: 7134934359116701191
+      Sebastian_2: -8570328804524002535
+      Sebastian_3: 1557436041645336487
+      Sebastian_4: -8348129613432394836
+      Sebastian_5: 842689126443963082
+      Sebastian_6: 9034306516085761434
+      Sebastian_7: -7127673415304694139
+      Sebastian_8: -5549967413779682490
+      Sebastian_9: 612735768112308439
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

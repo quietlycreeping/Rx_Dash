@@ -1,0 +1,383 @@
+fileFormatVersion: 2
+guid: 36f499ac8267f0d459d0c2ac7d31a295
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -450376430400614745
+    second: Evelyn_0
+  - first:
+      213: -344633899238766996
+    second: Evelyn_1
+  - first:
+      213: -7535091313463424705
+    second: Evelyn_2
+  - first:
+      213: 3184610499234291403
+    second: Evelyn_3
+  - first:
+      213: 2534157357222269027
+    second: Evelyn_4
+  - first:
+      213: -8637498002154913394
+    second: Evelyn_5
+  - first:
+      213: -4560889361705502254
+    second: Evelyn_6
+  - first:
+      213: 5381517251383385350
+    second: Evelyn_7
+  - first:
+      213: -2234778208740985645
+    second: Evelyn_8
+  - first:
+      213: -7734085242854717606
+    second: Evelyn_9
+  - first:
+      213: 8444077886109351753
+    second: Evelyn_10
+  - first:
+      213: -6119909490069285383
+    second: Evelyn_11
+  - first:
+      213: -8494768178030675938
+    second: Evelyn_12
+  - first:
+      213: 2430122560567137297
+    second: Evelyn_13
+  - first:
+      213: 1012876659029182218
+    second: Evelyn_14
+  - first:
+      213: -1845304216916149671
+    second: Evelyn_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 110
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Evelyn_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1054
+        width: 170
+        height: 285
+      alignment: 9
+      pivot: {x: 0.47058824, y: 0.05263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c9465f216c62d4e9fad4f02013e2b5
+      internalID: -1672171783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evelyn_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1053
+        width: 170
+        height: 285
+      alignment: 9
+      pivot: {x: 0.47058824, y: 0.05263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e5debc37c29764db47ac4559a5adcd
+      internalID: 1047569550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evelyn_2
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1054
+        width: 170
+        height: 285
+      alignment: 9
+      pivot: {x: 0.47058824, y: 0.05263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c9a6e791c832f45bfa964004b7bac1
+      internalID: -1147298968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evelyn_3
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1054
+        width: 170
+        height: 285
+      alignment: 9
+      pivot: {x: 0.47058824, y: 0.05263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca2bfa9f11a0544d9077e56652faf75
+      internalID: 1698442646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evelyn_4
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 714
+        width: 170
+        height: 285
+      alignment: 9
+      pivot: {x: 0.47058824, y: 0.05263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4f2638dce994b40b29c18c3d14d58a
+      internalID: 1890474297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evelyn_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 714
+        width: 170
+        height: 285
+      alignment: 9
+      pivot: {x: 0.47058824, y: 15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771efb166e0513e438a9b66646ab7d26
+      internalID: 361589862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evelyn_6
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 714
+        width: 170
+        height: 285
+      alignment: 9
+      pivot: {x: 0.47058824, y: 0.05263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd961f30dc38dad488c8dc89aeec3e62
+      internalID: 2050735254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evelyn_7
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 714
+        width: 170
+        height: 285
+      alignment: 9
+      pivot: {x: 0.47058824, y: 0.05263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88edc46576721749814ab539a185406
+      internalID: 48380735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 07d8ee037a1685744bc722b976970bbb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Evelyn_0: -1672171783
+      Evelyn_1: 1047569550
+      Evelyn_10: 8444077886109351753
+      Evelyn_11: -6119909490069285383
+      Evelyn_12: -8494768178030675938
+      Evelyn_13: 2430122560567137297
+      Evelyn_14: 1012876659029182218
+      Evelyn_15: -1845304216916149671
+      Evelyn_2: -1147298968
+      Evelyn_3: 1698442646
+      Evelyn_4: 1890474297
+      Evelyn_5: 361589862
+      Evelyn_6: 2050735254
+      Evelyn_7: 48380735
+      Evelyn_8: -2234778208740985645
+      Evelyn_9: -7734085242854717606
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -6,11 +6,9 @@ using System;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class QueManager : MonoBehaviour
 {
-    CustomerController customerController;
 //================= Variables =================//
     [Tooltip("List of customer gameObjects")]
     public List<GameObject> customers = new List<GameObject>();
@@ -18,16 +16,19 @@ public class QueManager : MonoBehaviour
     //hardcoded location spots that are children of the queManager
     List <Vector3>QueSpots;
     int spotNumber;
+    [HideInInspector]
+    public Vector3 exitSpot;
 
    //list of customers in line
-    List <GameObject>CustomersQue=new List<GameObject>();
+    List <GameObject>CustomersQue=new();
 //================= Core Functions =================//
     // Update is called once per frame
     private void Awake()
     {
         spotNumber = transform.childCount;
         QueSpots = new List<Vector3>();
-        CustomersQue = new List<GameObject>(new GameObject[spotNumber]); 
+        CustomersQue = new List<GameObject>(new GameObject[spotNumber]);
+        exitSpot = transform.GetChild(7).position; 
         
         //queSpots and customerQue populate 
         for (int i =0;i<spotNumber;i++)
@@ -35,12 +36,6 @@ public class QueManager : MonoBehaviour
             QueSpots.Add(transform.GetChild(i).position);
         }
     }
-
-    private void Update()
-    {
-
-    }
-
 
 
     //================= Functions =================//
@@ -56,5 +51,10 @@ public class QueManager : MonoBehaviour
                 break;
             }
         }
+    }
+
+    public void UpdateQue(GameObject customer)
+    {
+
     }
 }

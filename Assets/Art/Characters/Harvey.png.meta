@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: ee394e0ee39c5054683088be55c30093
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3452801166750831739
+    second: Harvey_0
+  - first:
+      213: -8788539661129106468
+    second: Harvey_1
+  - first:
+      213: -3350305223359078546
+    second: Harvey_2
+  - first:
+      213: 3050825350638916687
+    second: Harvey_3
+  - first:
+      213: -1465231350486094767
+    second: Harvey_4
+  - first:
+      213: 7206302739094132782
+    second: Harvey_5
+  - first:
+      213: 8346153032363680085
+    second: Harvey_6
+  - first:
+      213: -6948179569697364238
+    second: Harvey_7
+  - first:
+      213: 6525877889169152892
+    second: Harvey_8
+  - first:
+      213: -2042258126146616071
+    second: Harvey_9
+  - first:
+      213: -1994110875370777428
+    second: Harvey_10
+  - first:
+      213: 5970195226580695467
+    second: Harvey_11
+  - first:
+      213: -3208203832697753415
+    second: Harvey_12
+  - first:
+      213: -2512445383779244627
+    second: Harvey_13
+  - first:
+      213: -6192943905326564029
+    second: Harvey_14
+  - first:
+      213: -4396783045945590851
+    second: Harvey_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 110
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Harvey_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1040
+        width: 153
+        height: 335
+      alignment: 9
+      pivot: {x: 0.49673203, y: 0.04477612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74dc301e50daef20800000000000000
+      internalID: 3452801166750831739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harvey_1
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1040
+        width: 142
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdbb7fbedb5d80680800000000000000
+      internalID: -8788539661129106468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harvey_2
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1040
+        width: 153
+        height: 335
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6fdb8866235181d0800000000000000
+      internalID: -3350305223359078546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harvey_3
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1040
+        width: 143
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44d6901e75b65a20800000000000000
+      internalID: 3050825350638916687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harvey_4
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 696
+        width: 121
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ca28099d37aabe0800000000000000
+      internalID: -1465231350486094767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harvey_5
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 696
+        width: 153
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2851ab192ee10460800000000000000
+      internalID: 7206302739094132782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harvey_6
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 696
+        width: 121
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551261f86fd73d370800000000000000
+      internalID: 8346153032363680085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harvey_7
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 696
+        width: 143
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6ef809e7b139f90800000000000000
+      internalID: -6948179569697364238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harvey_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 352
+        width: 153
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7bd0875d53909a50800000000000000
+      internalID: 6525877889169152892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harvey_9
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 352
+        width: 131
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4406bfd0178a3e0800000000000000
+      internalID: -2042258126146616071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harvey_10
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 352
+        width: 153
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca418ce59be7354e0800000000000000
+      internalID: -1994110875370777428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harvey_11
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 352
+        width: 132
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba933185de46ad250800000000000000
+      internalID: 5970195226580695467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harvey_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 8
+        width: 121
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0f009ac9b2a73d0800000000000000
+      internalID: -3208203832697753415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harvey_13
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 8
+        width: 142
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5a4462c30022dd0800000000000000
+      internalID: -2512445383779244627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harvey_14
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 8
+        width: 121
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34df619645e3e0aa0800000000000000
+      internalID: -6192943905326564029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harvey_15
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 8
+        width: 153
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbbf3f76d1d7bf2c0800000000000000
+      internalID: -4396783045945590851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3a11afc2733cf254b87554a6c8de17cd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Harvey_0: 3452801166750831739
+      Harvey_1: -8788539661129106468
+      Harvey_10: -1994110875370777428
+      Harvey_11: 5970195226580695467
+      Harvey_12: -3208203832697753415
+      Harvey_13: -2512445383779244627
+      Harvey_14: -6192943905326564029
+      Harvey_15: -4396783045945590851
+      Harvey_2: -3350305223359078546
+      Harvey_3: 3050825350638916687
+      Harvey_4: -1465231350486094767
+      Harvey_5: 7206302739094132782
+      Harvey_6: 8346153032363680085
+      Harvey_7: -6948179569697364238
+      Harvey_8: 6525877889169152892
+      Harvey_9: -2042258126146616071
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -9,6 +9,8 @@ using System;
 [RequireComponent(typeof(AudioSource))]
 public class TimeManager : MonoBehaviour
 {
+    // The global instance for other scripts to reference
+    public static TimeManager instance = null;
 //================= Variables =================//
     [Header("Components")]
     AudioSource warningJingle;
@@ -31,14 +33,24 @@ public class TimeManager : MonoBehaviour
     //================= Core Functions =================//
     public void Awake()
     {
-        currentTime = levelTime;
+        // When this component is first added or activated, setup the global reference
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
     }
 
     public void Start()
     {
+        currentTime = levelTime;
         warningJingle = GetComponent<AudioSource>();
         StartCoroutine(WarningJinglePlay());
     }
+    
     public void Update()
     {
         currentTime = countDown ? currentTime -= Time.deltaTime : currentTime += Time.deltaTime;
