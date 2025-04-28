@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 743915f74c7f16e4797b4fa10a2016e8, type: 3}
   m_Name: Old Female 1 Data
   m_EditorClassIdentifier: 
-  custPrefab: {fileID: 0}
-  firstName: 
-  lastName: 
-  month: 0
-  day: 0
-  year: 0
+  custPrefab: {fileID: 1877077330705442921, guid: ae184f57d8085d84aae7a7b32c52c062, type: 3}
+  firstName: Evelyn
+  lastName: Harper
+  month: 1
+  day: 8
+  year: 1929
   quickWait: 0
   averageWait: 0
   maxWait: 0

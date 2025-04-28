@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   custPrefab: {fileID: 7120207167068673736, guid: 7be2e7a90c81f994f8c89c12cac511d0, type: 3}
   firstName: Lewis
-  lastName: Mayor
+  lastName: Carter
   month: 3
-  day: 7
-  year: 1945
+  day: 14
+  year: 1948
   quickWait: 0
   averageWait: 0
   maxWait: 0

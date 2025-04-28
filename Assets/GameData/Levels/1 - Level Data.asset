@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8ad3ae4c613bc148afaa5bb0c194ef4, type: 3}
   m_Name: 1 - Level Data
   m_EditorClassIdentifier: 
-  levelNum: 0
+  levelNum: 1
   timeLimit: 0
-  customerAmount: 0
+  customerAmount: 3
   oneStar: 0
   twoStar: 0
   threeStar: 0
