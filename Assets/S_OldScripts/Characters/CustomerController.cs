@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.AI;
+using System.Globalization;
 
 [RequireComponent(typeof(NavMeshAgent))]
 [RequireComponent(typeof(AudioSource))]
@@ -27,6 +28,7 @@ public class CustomerController : MonoBehaviour
     public float month = 5;
     public float day = 22;
     public float year = 1994;
+    public DateTime birthday; 
     
     [Header("Wait Times")]
     //       0------------5f--------------10f---------------15f------------->

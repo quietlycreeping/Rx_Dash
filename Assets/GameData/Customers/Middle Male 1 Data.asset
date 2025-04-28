@@ -9,10 +9,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82cda552ccba8794c90308bf16210967, type: 3}
-  m_Name: Normal Customer Mod Data
+  m_Script: {fileID: 11500000, guid: 743915f74c7f16e4797b4fa10a2016e8, type: 3}
+  m_Name: Middle Male 1 Data
   m_EditorClassIdentifier: 
-  earlyFinishMod: 1
-  averageFinishMod: 0.5
-  lateFinishMod: 0.3
-  miss: -10
+  custPrefab: {fileID: 0}
+  firstName: 
+  lastName: 
+  month: 0
+  day: 0
+  year: 0
+  quickWait: 0
+  averageWait: 0
+  maxWait: 0
+  medicine: []

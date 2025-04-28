@@ -167,6 +167,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -267,7 +293,7 @@ TextureImporter:
         width: 170
         height: 285
       alignment: 9
-      pivot: {x: 0.6, y: 0.05263158}
+      pivot: {x: 0.5, y: 0.05263158}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -284,12 +310,12 @@ TextureImporter:
       name: Caroline_Walk2
       rect:
         serializedVersion: 2
-        x: 231
+        x: 248
         y: 710
         width: 170
         height: 285
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05263158}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -306,7 +332,7 @@ TextureImporter:
       name: Caroline_Walk3
       rect:
         serializedVersion: 2
-        x: 401
+        x: 418
         y: 710
         width: 170
         height: 285
@@ -328,8 +354,8 @@ TextureImporter:
       name: Caroline_Walk4
       rect:
         serializedVersion: 2
-        x: 571
-        y: 710
+        x: 588
+        y: 711
         width: 170
         height: 285
       alignment: 9
