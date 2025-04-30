@@ -7,7 +7,7 @@ using System.Globalization;
 
 [RequireComponent(typeof(NavMeshAgent))]
 [RequireComponent(typeof(AudioSource))]
-public class CustomerController : MonoBehaviour
+public class XCustomerController : MonoBehaviour
 {
 //================= Variables =================//    
     

@@ -9,7 +9,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class PlayerController : MonoBehaviour
+public class XPlayerController : MonoBehaviour
 {
 //================= Variables =================//
     Vector2 clickedPoint;

@@ -41,7 +41,7 @@ public class QueManager : MonoBehaviour
     //================= Functions =================//
     public void QueNewCust(GameObject customer)
     {   
-        var customerController = customer.GetComponent<CustomerController>();
+        var customerController = customer.GetComponent<XCustomerController>();
         for (int i=0;i<spotNumber;i++)
         {
             if (CustomersQue[i] == null)

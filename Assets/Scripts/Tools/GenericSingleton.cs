@@ -1,3 +1,9 @@
+/*=========================================================
+ Author:     J. Orlando
+ Date:       April 2025
+ Description: Generic Singleton for all  
+              future singletons to inhereit from.
+==========================================================*/
 using UnityEngine;
 
 public class GenericSingleton<T> : MonoBehaviour where T: GenericSingleton<T> //generic singleton
