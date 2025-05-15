@@ -9,12 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8ad3ae4c613bc148afaa5bb0c194ef4, type: 3}
-  m_Name: 1 - Level Data
+  m_Script: {fileID: 11500000, guid: b97f02ca15cf6ed4889d1c14eb88c825, type: 3}
+  m_Name: Player Data
   m_EditorClassIdentifier: 
-  levelNum: 1
-  timeLimit: 30
-  customerArriveTime: 020000000500000006000000
-  oneStar: 5
-  twoStar: 10
-  threeStar: 20
+  playedLevelData:
+  - starsEarned: 1
+    scoreEarned: 2
