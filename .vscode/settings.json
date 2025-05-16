@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "RxDash.sln"
+    "dotnet.defaultSolution": "Rx_Dash.sln"
 }
