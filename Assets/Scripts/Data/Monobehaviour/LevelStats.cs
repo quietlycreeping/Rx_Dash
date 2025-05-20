@@ -10,10 +10,22 @@ using Unity.Properties;
 
 public class LevelStats : MonoBehaviour
 {
-    //================= Variables =================//
+//================= Variables =================//
+    public LevelData_SO readonlyLevelData;
+
+    [HideInInspector]
     public LevelData_SO levelData;
 
-    //================= Properties =================// 
+//================= Core Functions =================//
+    private void Awake()
+    {
+        if (readonlyLevelData)
+        {
+            levelData = Instantiate(readonlyLevelData);
+        }
+    }
+
+//================= Properties =================// 
     #region Read from LevelData_SO / Stats
     public int LevelNum
     {

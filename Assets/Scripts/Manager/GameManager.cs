@@ -19,11 +19,16 @@ public class GameManager : GenericSingleton<GameManager>
 
     //================= Variables =================//
     [Header("Requirements")]
-    public ScriptableObject levelData;
-    LevelStats levelStats;
     public UIManager uIManager;
+    LevelStats levelStats;
+    
+    //================= Core Functions =================//
+    protected override void Awake()
+    {
+        base.Awake();
 
-//================= Core Functions =================//
+        levelStats = GetComponent<LevelStats>();
+    }
 
 
     //================= Functions =================//

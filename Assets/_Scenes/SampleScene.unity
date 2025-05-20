@@ -8554,6 +8554,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 670296478226687909}
+  - component: {fileID: 7277945849305433844}
   - component: {fileID: 7277945849305433843}
   - component: {fileID: 7277945849305433841}
   - component: {fileID: 7277945849305433842}
@@ -8770,8 +8771,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40af9aebe2945d4459b57b4001187d72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelData: {fileID: 11400000, guid: cd7c73c6dd05da54da70b47cbc8a4cf9, type: 2}
   uIManager: {fileID: 20913023}
+--- !u!114 &7277945849305433844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7277945849305433840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebaa10212213fc046acbdef2840642e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  readonlyLevelData: {fileID: 11400000, guid: cd7c73c6dd05da54da70b47cbc8a4cf9, type: 2}
+  levelData: {fileID: 0}
 --- !u!114 &7287211972415790709
 MonoBehaviour:
   m_ObjectHideFlags: 0
