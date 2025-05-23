@@ -9,12 +9,13 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.AI;
 
+[RequireComponent(typeof(NavMeshAgent))]
 public class PlayerController : MonoBehaviour
 {
-//================= Variables =================//   
+    //================= Variables =================//   
     NavMeshAgent agent;
 
-//================= Core Functions =================//
+    //================= Core Functions =================//
     private void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -23,10 +24,10 @@ public class PlayerController : MonoBehaviour
     }
     private void Start()
     {
-        MouseManager.Instance.OnGroundClicked += PlayerMovement;
+        InputManager.Instance.OnGroundClicked += PlayerMovement;
     }
 
-//================= Functions =================//
+    //================= Functions =================//
     public void PlayerMovement(Vector2 target)
     {
         StopAllCoroutines();

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelNum: 1
   timeLimit: 30
-  customerArriveTime: 020000000500000006000000
+  customerArriveTime: 020000000a00000012000000
   oneStar: 5
   twoStar: 10
   threeStar: 20

@@ -5,8 +5,10 @@
 ==========================================================*/
 using System;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
-public class MouseManager : GenericSingleton<MouseManager>
+[RequireComponent(typeof(PlayerInput))]
+public class InputManager : GenericSingleton<InputManager>
 {
 //================= Events =================//
     public event Action<Vector2> OnGroundClicked;
@@ -14,6 +16,7 @@ public class MouseManager : GenericSingleton<MouseManager>
 //================= Variables =================//
     RaycastHit2D hitInfo;
     Vector2 clickedPoint;
+    public float pauseButton = 0; //state of pause button
 
 //================= Core Functions =================//
     protected override void Awake()
@@ -26,7 +29,7 @@ public class MouseManager : GenericSingleton<MouseManager>
         MouseControl();
     }
 
-//================= Functions =================//
+    //================= Functions =================//
     private void GetRayPoint()
     {
         clickedPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -35,12 +38,17 @@ public class MouseManager : GenericSingleton<MouseManager>
 
     void MouseControl()
     {
-        if(Input.GetMouseButtonDown(0) && hitInfo.collider != null)
+        if (Input.GetMouseButtonDown(0) && hitInfo.collider != null)
         {
             if (hitInfo.collider.gameObject.CompareTag("Ground"))
             {
                 OnGroundClicked?.Invoke(clickedPoint);
             }
         }
+    }
+
+    public void GetPauseInput(InputAction.CallbackContext context)
+    {
+        pauseButton = context.ReadValue<float>();
     }
 }

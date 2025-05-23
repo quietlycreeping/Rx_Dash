@@ -13,15 +13,17 @@ public class TimeManager : GenericSingleton<TimeManager>
     //TODO: add event listenter in quemanager
 
     //================= Variables =================//
-
     LevelStats levelStats;
-    //FIXME: get current level and UI manager from game manager
     float currentTime;
 
     //================= Core Functions =================//
     protected override void Awake()
     {
         base.Awake();
+    }
+    private void Start()
+    {
+        levelStats = GameManager.Instance.levelStats;
         currentTime = levelStats.TimeLimit;
     }
     private void Update()

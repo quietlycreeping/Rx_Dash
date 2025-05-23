@@ -15,7 +15,7 @@ public class LevelData_SO : ScriptableObject
     public float timeLimit;
 
     [Header("Customers")]
-    [Tooltip("Waittime is the time after previous customer arrives or level start")]
+    [Tooltip("Waittime is total time. From game start till they arrive.")]
     public List<int> customerArriveTime;
     
     [Header("Score Thershold")]

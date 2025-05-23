@@ -12,24 +12,28 @@ using Unity.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
+[RequireComponent(typeof(LevelStats))]
 public class GameManager : GenericSingleton<GameManager>
 {
-    //================= Events =================//
+//================= Events =================//
 
-    //================= Variables =================//
+//================= Variables =================//
     [Header("Requirements")]
     public UIManager uIManager;
-    LevelStats levelStats;
-    
-    //================= Core Functions =================//
+    [HideInInspector]
+    public LevelStats levelStats;
+
+    [Header("Win/Lose Stats")]
+    public int winPageIndex = 0;
+    public int losePageIndex = 0;
+
+//================= Core Functions =================//
     protected override void Awake()
     {
         base.Awake();
-
         levelStats = GetComponent<LevelStats>();
     }
 
 
-    //================= Functions =================//
+//================= Functions =================//
 }

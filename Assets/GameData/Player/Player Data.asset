@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Player Data
   m_EditorClassIdentifier: 
   playedLevelData:
-  - starsEarned: 1
-    scoreEarned: 2
+  - starsEarned: 0
+    scoreEarned: 0
