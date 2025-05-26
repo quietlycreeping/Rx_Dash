@@ -30,12 +30,17 @@ public class UIManager : MonoBehaviour
     public EventSystem eventSystem; // The event system handling UI navigation
 
     //================= Core Functions =================//
+    private void Awake()
+    {
+        ActivatePage(defaultPageIndex);
+    }
     private void Update()
     {
         CheckPauseInput();
     }
 
     //================= Functions =================//
+    #region Pause Functions
     private void CheckPauseInput()
     {
         if (inputManager != null)
@@ -65,7 +70,7 @@ public class UIManager : MonoBehaviour
             }
         }
     }
-
+    #endregion
     public void ActivatePage(int pageIndex)
     {
         if (pageIndex < pages.Count && pages[pageIndex] != null)

@@ -9,14 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8ad3ae4c613bc148afaa5bb0c194ef4, type: 3}
-  m_Name: 1 - Level Data
+  m_Script: {fileID: 11500000, guid: 0a23e76ec35331f4f9cf6f674855f93f, type: 3}
+  m_Name: Adderall
   m_EditorClassIdentifier: 
-  levelNum: 1
-  oneStar: 5
-  twoStar: 10
-  threeStar: 20
-  timeLimit: 30
-  warningTime: 5
-  overTimeMod: 0.5
-  customerArriveTime: 020000000a00000012000000
+  brandName: Adderall
+  genericName: amphetamine and dextroamphetamine
+  description: Used to treat attention deficit hyperactivity disorder (ADHD) and
+    narcolepsy.
+  classNum: II

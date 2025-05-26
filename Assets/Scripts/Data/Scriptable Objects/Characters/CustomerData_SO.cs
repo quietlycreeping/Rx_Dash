@@ -5,8 +5,6 @@
 ==========================================================*/
 using UnityEngine;
 using System.Collections.Generic;
-using System.Globalization;
-using System;
 
 [CreateAssetMenu(fileName = "CustomerData_SO", menuName = "Scriptable Objects/Characters/Customer Data")]
 public class CustomerData_SO : ScriptableObject

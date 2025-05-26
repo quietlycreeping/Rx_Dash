@@ -32,11 +32,6 @@ public class LevelStats : MonoBehaviour
         get { if (levelData) return levelData.levelNum; else return 0; }
         set { levelData.levelNum = value; }
     }
-    public float TimeLimit
-    {
-        get { if (levelData) return levelData.timeLimit; else return 0; }
-        set { levelData.timeLimit = value; }
-    }
     #endregion
 
     #region Read from LevelData_SO / Score Thershold
@@ -54,6 +49,24 @@ public class LevelStats : MonoBehaviour
     {
         get { if (levelData) return levelData.threeStar; else return 0; }
         set { levelData.threeStar = value; }
+    }
+    #endregion
+
+    #region Read from LevelData_SO / Time Settings
+    public float TimeLimit
+    {
+        get { if (levelData) return levelData.timeLimit; else return 0; }
+        set { levelData.timeLimit = value; }
+    }
+    public int WarningTime
+    {
+        get { if (levelData) return levelData.warningTime; else return 0; }
+        set { levelData.warningTime = value; }
+    }
+    public float OverTimeMod
+    {
+        get { if (levelData) return levelData.overTimeMod; else return 0; }
+        set { levelData.overTimeMod = value; }
     }
     #endregion
 

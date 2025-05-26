@@ -11,15 +11,21 @@ public class LevelData_SO : ScriptableObject
 {
     [Header("Level Stats")]
     public int levelNum;
-    [Tooltip("In seconds")]
-    public float timeLimit;
 
-    [Header("Customers")]
-    [Tooltip("Waittime is total time. From game start till they arrive.")]
-    public List<int> customerArriveTime;
-    
     [Header("Score Thershold")]
     public int oneStar;
     public int twoStar;
     public int threeStar;
+
+    [Header("Time Settings")]
+    [Tooltip("In seconds")]
+    public float timeLimit;
+    [Tooltip("Time before zero that a notification to the player happens. In seconds.")]
+    public int warningTime = 20;
+    [Tooltip("Modifier to multiply timeLimit (fraction 0.3) to set overtime amount")]
+    public float overTimeMod = 0.3f;
+
+    [Header("Customers")]
+    [Tooltip("Waittime is total time. From game start till they arrive.")]
+    public List<int> customerArriveTime;
 }
