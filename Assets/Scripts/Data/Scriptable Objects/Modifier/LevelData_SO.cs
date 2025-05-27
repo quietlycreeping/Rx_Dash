@@ -28,4 +28,5 @@ public class LevelData_SO : ScriptableObject
     [Header("Customers")]
     [Tooltip("Waittime is total time. From game start till they arrive.")]
     public List<int> customerArriveTime;
+    
 }

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Generic Customer List
   m_EditorClassIdentifier: 
   customerList:
-  - {fileID: 11400000, guid: 90b9573555621604d8a1ab0dc4d65fa1, type: 2}
-  - {fileID: 11400000, guid: 82785ac0f41b117439943bf5679a1b5c, type: 2}
-  - {fileID: 11400000, guid: 9fa4908eb87e4f44e996d9eddd9a6932, type: 2}
-  - {fileID: 11400000, guid: f17ce5b303e5c904ba6e9e53c467bedd, type: 2}
-  - {fileID: 11400000, guid: a2c1b5cccefab07429e6d6b58bb43b8f, type: 2}
-  - {fileID: 11400000, guid: e3881ee2ab7d01642aed7f067109457f, type: 2}
+  - {fileID: 7329463398577616869, guid: f440ab86b7d35c3498b56e6b50a963e7, type: 3}
+  - {fileID: 8413690798228523790, guid: 75c3e44f3187cb84cae7608937c7f4ff, type: 3}
+  - {fileID: 3861360500234575562, guid: ae291188476a76542aa46ec3699ae483, type: 3}
+  - {fileID: 2060321600831686478, guid: 15edc04d2176721439939b92e3681bb3, type: 3}
+  - {fileID: 1877077330705442921, guid: ae184f57d8085d84aae7a7b32c52c062, type: 3}
+  - {fileID: 7120207167068673736, guid: 7be2e7a90c81f994f8c89c12cac511d0, type: 3}

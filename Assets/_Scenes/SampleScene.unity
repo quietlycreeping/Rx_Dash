@@ -716,7 +716,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 253185534}
-  - component: {fileID: 253185536}
   - component: {fileID: 253185535}
   m_Layer: 0
   m_Name: QueManager
@@ -760,19 +759,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f6cf34d30d1ac74092411001c1d46cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &253185536
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 253185532}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da1b46b4dde59894192636a5f8b6c586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  customerData: {fileID: 0}
+  customerList: []
 --- !u!1 &271673971
 GameObject:
   m_ObjectHideFlags: 0
@@ -2114,7 +2101,7 @@ Transform:
   m_GameObject: {fileID: 951732207}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.943402, y: -0.33447564, z: -0.07676691}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6239,7 +6226,7 @@ Transform:
   m_GameObject: {fileID: 7277945849305433840}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 383.5463, y: 309.40332, z: -2.7125444}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8766,10 +8753,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40af9aebe2945d4459b57b4001187d72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uIManager: {fileID: 0}
+  uIManager: {fileID: 8905619107952606098}
   levelStats: {fileID: 0}
-  winPageIndex: 0
-  losePageIndex: 0
+  winPageIndex: 2
+  losePageIndex: 3
 --- !u!114 &7277945849305433844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8782,8 +8769,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebaa10212213fc046acbdef2840642e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  readonlyLevelData: {fileID: 11400000, guid: cd7c73c6dd05da54da70b47cbc8a4cf9, type: 2}
+  templateLevelData: {fileID: 11400000, guid: cd7c73c6dd05da54da70b47cbc8a4cf9, type: 2}
+  templateCustomerList: {fileID: 11400000, guid: 4803d6f3c794ed841a26930a39f2c084, type: 2}
   levelData: {fileID: 0}
+  customerList: {fileID: 0}
 --- !u!114 &7287211972415790709
 MonoBehaviour:
   m_ObjectHideFlags: 0

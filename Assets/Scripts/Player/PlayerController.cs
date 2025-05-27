@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
         InputManager.Instance.OnGroundClicked += PlayerMovement;
     }
 
-    //================= Functions =================//
+//================= Functions =================//
     public void PlayerMovement(Vector2 target)
     {
         StopAllCoroutines();

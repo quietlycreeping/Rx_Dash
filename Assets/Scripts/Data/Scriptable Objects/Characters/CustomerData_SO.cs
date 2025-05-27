@@ -15,8 +15,11 @@ public class CustomerData_SO : ScriptableObject
     public string lastName;
 
     [Header("Birthday")]
+    [Tooltip("1 to 12")]
     public int month;
+    [Tooltip("1 to number of days in that month/year")]
     public int day;
+    [Tooltip("1 to 9999")]
     public int year;
     
     [Header("Wait Tolerances")]

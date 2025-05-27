@@ -10,22 +10,27 @@ using Unity.Properties;
 
 public class LevelStats : MonoBehaviour
 {
-//================= Variables =================//
-    public LevelData_SO readonlyLevelData;
+    //================= Variables =================//
+    public LevelData_SO templateLevelData;
+    public CustomerList_SO templateCustomerList;
 
     [HideInInspector]
     public LevelData_SO levelData;
 
-//================= Core Functions =================//
+    [HideInInspector]
+    public CustomerList_SO customerList;
+
+    //================= Core Functions =================//
     private void Awake()
     {
-        if (readonlyLevelData)
-        {
-            levelData = Instantiate(readonlyLevelData);
-        }
+        if (templateLevelData)
+            levelData = Instantiate(templateLevelData);
+        if (templateCustomerList)
+            customerList = Instantiate(templateCustomerList);
+
     }
 
-//================= Properties =================// 
+    //================= Properties =================// 
     #region Read from LevelData_SO / Stats
     public int LevelNum
     {
@@ -83,6 +88,11 @@ public class LevelStats : MonoBehaviour
             if (levelData && levelData.customerArriveTime != null) return levelData.customerArriveTime.Count;
             else return 0;
         }
+    }
+    public List<GameObject> CustomerList
+    {
+        get { if (customerList) return customerList.customerList; else return null; }
+        set { customerList.customerList = value; }
     }
     #endregion
 
