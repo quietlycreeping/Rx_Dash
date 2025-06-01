@@ -176,7 +176,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 8582114002445855543}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
           m_MethodName: CreateNavigationEffect
           m_Mode: 1
@@ -192,7 +192,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 8582114002445855543}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
           m_MethodName: CreateClickEffect
           m_Mode: 1
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8582114002445855543}
+      - m_Target: {fileID: 5655908166011292010}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: GoToPage
         m_Mode: 3
@@ -260,7 +260,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 8582114002445855543}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: CreateClickEffect
         m_Mode: 1
@@ -507,7 +507,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 8582114002445855543}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
           m_MethodName: CreateNavigationEffect
           m_Mode: 1
@@ -523,7 +523,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 8582114002445855543}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
           m_MethodName: CreateBackEffect
           m_Mode: 1
@@ -579,7 +579,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8582114002445855543}
+      - m_Target: {fileID: 5655908166011292010}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: GoToPage
         m_Mode: 3
@@ -591,7 +591,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 8582114002445855543}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: CreateBackEffect
         m_Mode: 1
@@ -791,7 +791,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1055509012}
-  - component: {fileID: 1055509011}
   m_Layer: 0
   m_Name: Instruct Screen
   m_TagString: Untagged
@@ -799,19 +798,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &1055509011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1055509010}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1712037372a6cb43acd1fa30aac46f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultSelected: {fileID: 0}
 --- !u!4 &1055509012
 Transform:
   m_ObjectHideFlags: 0
@@ -1753,8 +1739,6 @@ GameObject:
   - component: {fileID: 660819900775204315}
   - component: {fileID: 6503771177018944717}
   - component: {fileID: 7557075530726488857}
-  - component: {fileID: 5900037715659177179}
-  - component: {fileID: 7840960622460664816}
   - component: {fileID: 2385709150489685101}
   m_Layer: 5
   m_Name: Start Button
@@ -1794,9 +1778,9 @@ GameObject:
   - component: {fileID: 2968530985167757065}
   - component: {fileID: 3890762169991125159}
   - component: {fileID: 177045599355779388}
-  - component: {fileID: 8582114002445855543}
+  - component: {fileID: 5655908166011292010}
   m_Layer: 5
-  m_Name: Menu Canvas
+  m_Name: Menu Canvas + UI Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1846,7 +1830,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8582114002445855543}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: GoToPage
         m_Mode: 3
@@ -1858,7 +1842,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 8582114002445855543}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: CreateBackEffect
         m_Mode: 1
@@ -1904,7 +1888,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 8582114002445855543}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
           m_MethodName: CreateNavigationEffect
           m_Mode: 1
@@ -1920,7 +1904,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 8582114002445855543}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
           m_MethodName: CreateClickEffect
           m_Mode: 1
@@ -1932,7 +1916,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 8265916801162943122}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: LevelSwitcher, Assembly-CSharp
           m_MethodName: LoadScene
           m_Mode: 5
@@ -1952,18 +1936,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6543527447566023737}
   m_CullTransparentMesh: 1
---- !u!114 &512556197855237090
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4288413617888329366}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ca67ce69f71b0043a33a9fddb17212d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &619740267699937374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2314,7 +2286,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8582114002445855543}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: GoToPage
         m_Mode: 3
@@ -2326,7 +2298,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 8582114002445855543}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: CreateBackEffect
         m_Mode: 1
@@ -2405,7 +2377,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 8582114002445855543}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
           m_MethodName: CreateNavigationEffect
           m_Mode: 1
@@ -2421,7 +2393,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 8582114002445855543}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
           m_MethodName: CreateClickEffect
           m_Mode: 1
@@ -2496,7 +2468,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 8582114002445855543}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
           m_MethodName: CreateNavigationEffect
           m_Mode: 1
@@ -2512,7 +2484,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 8582114002445855543}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
           m_MethodName: CreateClickEffect
           m_Mode: 1
@@ -2524,7 +2496,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 8265916801162943122}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: LevelSwitcher, Assembly-CSharp
           m_MethodName: LoadScene
           m_Mode: 5
@@ -2570,18 +2542,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2268492050251649439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4206740691791480649}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af2d914a851d441478255350bdda400a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2296420930093381602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2690,7 +2650,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 8582114002445855543}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
           m_MethodName: CreateNavigationEffect
           m_Mode: 1
@@ -2706,7 +2666,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 8582114002445855543}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
           m_MethodName: CreateClickEffect
           m_Mode: 1
@@ -2986,7 +2946,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 8582114002445855543}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
           m_MethodName: CreateNavigationEffect
           m_Mode: 1
@@ -3002,7 +2962,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 8582114002445855543}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
           m_MethodName: CreateBackEffect
           m_Mode: 1
@@ -3092,7 +3052,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8582114002445855543}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: GoToPage
         m_Mode: 3
@@ -3104,7 +3064,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 8582114002445855543}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: CreateClickEffect
         m_Mode: 1
@@ -3496,7 +3456,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2268492050251649439}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: QuitGameButton, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
@@ -3539,7 +3499,6 @@ GameObject:
   - component: {fileID: 968040929157921563}
   - component: {fileID: 4125871344775768533}
   - component: {fileID: 5527245242075232009}
-  - component: {fileID: 2268492050251649439}
   m_Layer: 5
   m_Name: Quit Button
   m_TagString: Untagged
@@ -3560,8 +3519,6 @@ GameObject:
   - component: {fileID: 8675130300108616703}
   - component: {fileID: 4469336850867565716}
   - component: {fileID: 373164481418238507}
-  - component: {fileID: 512556197855237090}
-  - component: {fileID: 8265916801162943122}
   m_Layer: 5
   m_Name: Level1 Button
   m_TagString: Untagged
@@ -3753,7 +3710,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8265916801162943122}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LevelSwitcher, Assembly-CSharp
         m_MethodName: LoadScene
         m_Mode: 5
@@ -3765,7 +3722,7 @@ MonoBehaviour:
           m_StringArgument: SampleScene
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 8582114002445855543}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: CreateClickEffect
         m_Mode: 1
@@ -3777,7 +3734,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 512556197855237090}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PlayerPrefsResetter, Assembly-CSharp
         m_MethodName: ResetGamePlayerPrefs
         m_Mode: 1
@@ -3886,19 +3843,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &4675576219049014245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4774464390193036620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1712037372a6cb43acd1fa30aac46f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultSelected: {fileID: 0}
 --- !u!114 &4683286143729964442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3916,7 +3860,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 8582114002445855543}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
           m_MethodName: CreateNavigationEffect
           m_Mode: 1
@@ -3932,7 +3876,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 8582114002445855543}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
           m_MethodName: CreateBackEffect
           m_Mode: 1
@@ -3953,7 +3897,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1083224325778962544}
-  - component: {fileID: 4675576219049014245}
   m_Layer: 0
   m_Name: Credits Screen
   m_TagString: Untagged
@@ -4120,7 +4063,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 8582114002445855543}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
           m_MethodName: CreateNavigationEffect
           m_Mode: 1
@@ -4136,7 +4079,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 8582114002445855543}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
           m_MethodName: CreateClickEffect
           m_Mode: 1
@@ -4148,7 +4091,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 8265916801162943122}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: LevelSwitcher, Assembly-CSharp
           m_MethodName: LoadScene
           m_Mode: 5
@@ -4160,19 +4103,6 @@ MonoBehaviour:
             m_StringArgument: SampleScene
             m_BoolArgument: 0
           m_CallState: 2
---- !u!114 &5168221705997744734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5818382955439752403}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1712037372a6cb43acd1fa30aac46f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultSelected: {fileID: 87731371992971906}
 --- !u!114 &5527245242075232009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4190,7 +4120,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 8582114002445855543}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
           m_MethodName: CreateNavigationEffect
           m_Mode: 1
@@ -4206,7 +4136,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 8582114002445855543}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
           m_MethodName: CreateClickEffect
           m_Mode: 1
@@ -4281,7 +4211,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8582114002445855543}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: CreateClickEffect
         m_Mode: 1
@@ -4293,7 +4223,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 512556197855237090}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PlayerPrefsResetter, Assembly-CSharp
         m_MethodName: ResetGamePlayerPrefs
         m_Mode: 1
@@ -4327,6 +4257,28 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &5655908166011292010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130439435075464742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85973e9c9742c0741aaaba8b282947ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pages:
+  - {fileID: 5818382955439752403}
+  - {fileID: 9118890449121810732}
+  - {fileID: 4774464390193036620}
+  - {fileID: 1055509010}
+  defaultPageIndex: 0
+  pausePageIndex: 0
+  allowPause: 0
+  inputManager: {fileID: 0}
+  eventSystem: {fileID: 0}
 --- !u!114 &5721689791734464027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4427,7 +4379,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6858481011971382900}
-  - component: {fileID: 5168221705997744734}
   m_Layer: 0
   m_Name: Start Screen
   m_TagString: Untagged
@@ -4435,18 +4386,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &5900037715659177179
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 87731371992971906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 001399e97f442a44e8ada27a39585798, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &5912164319251875615
 GameObject:
   m_ObjectHideFlags: 0
@@ -4539,7 +4478,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8582114002445855543}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: GoToPage
         m_Mode: 3
@@ -4551,7 +4490,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 8582114002445855543}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: CreateClickEffect
         m_Mode: 1
@@ -4688,19 +4627,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &6662361463790666764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9118890449121810732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1712037372a6cb43acd1fa30aac46f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultSelected: {fileID: 4288413617888329366}
 --- !u!222 &6730570785359947044
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4800,7 +4726,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8582114002445855543}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: CreateClickEffect
         m_Mode: 1
@@ -4812,7 +4738,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 512556197855237090}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PlayerPrefsResetter, Assembly-CSharp
         m_MethodName: ResetGamePlayerPrefs
         m_Mode: 1
@@ -4958,7 +4884,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5900037715659177179}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LevelLoadButton, Assembly-CSharp
         m_MethodName: LoadLevelByName
         m_Mode: 5
@@ -4970,7 +4896,7 @@ MonoBehaviour:
           m_StringArgument: SampleScene
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 8582114002445855543}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: CreateClickEffect
         m_Mode: 1
@@ -4982,7 +4908,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 7840960622460664816}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PlayerPrefsResetter, Assembly-CSharp
         m_MethodName: ResetGamePlayerPrefs
         m_Mode: 1
@@ -5041,18 +4967,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &7840960622460664816
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 87731371992971906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ca67ce69f71b0043a33a9fddb17212d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!222 &7937520193253139828
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5229,18 +5143,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &8265916801162943122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4288413617888329366}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49dea4f0258c701438073ebb9dc3318e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8406121716821652729
 GameObject:
   m_ObjectHideFlags: 0
@@ -5286,32 +5188,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4186252293764403662}
   m_CullTransparentMesh: 1
---- !u!114 &8582114002445855543
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130439435075464742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41f76d350b3656b4d9019c290d6d9c7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pages:
-  - {fileID: 5168221705997744734}
-  - {fileID: 6662361463790666764}
-  - {fileID: 4675576219049014245}
-  - {fileID: 1055509011}
-  currentPage: 0
-  defaultPage: 0
-  pausePageIndex: 0
-  allowPause: 0
-  navigationEffect: {fileID: 3575653050455647903, guid: 093992bccfd3ae449819d11a60b95d55, type: 3}
-  clickEffect: {fileID: 2744992937227283135, guid: cb15e079fa813a64f86608d4c9a5615e, type: 3}
-  backEffect: {fileID: 2744992937227283135, guid: 3aceafe005cd7a844a595976f2be217b, type: 3}
-  eventSystem: {fileID: 0}
-  inputManager: {fileID: 0}
 --- !u!114 &8607375571525660811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5420,7 +5296,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 8582114002445855543}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
           m_MethodName: CreateNavigationEffect
           m_Mode: 1
@@ -5436,7 +5312,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 8582114002445855543}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
           m_MethodName: CreateClickEffect
           m_Mode: 1
@@ -5680,7 +5556,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7180875115604266424}
-  - component: {fileID: 6662361463790666764}
   m_Layer: 0
   m_Name: File Select Screen
   m_TagString: Untagged

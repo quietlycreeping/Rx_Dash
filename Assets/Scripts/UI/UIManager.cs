@@ -32,11 +32,12 @@ public class UIManager : MonoBehaviour
     //================= Core Functions =================//
     private void Awake()
     {
-        ActivatePage(defaultPageIndex);
+        ActivateDefaultPage(defaultPageIndex);
     }
     private void Update()
     {
-        CheckPauseInput();
+        if (allowPause && inputManager != null)
+        { CheckPauseInput(); }
     }
 
     //================= Functions =================//
@@ -58,32 +59,38 @@ public class UIManager : MonoBehaviour
         {
             if (isPaused)
             {
-                ActivatePage(defaultPageIndex);
+                GoToPage(defaultPageIndex);
                 Time.timeScale = 1;
                 isPaused = false;
             }
             else
             {
-                ActivatePage(pausePageIndex);
+                GoToPage(pausePageIndex);
                 Time.timeScale = 0;
                 isPaused = true;
             }
         }
     }
     #endregion
-    public void ActivatePage(int pageIndex)
+
+    public void ActivateDefaultPage(int defaultPageIndex)
+    {
+        GoToPage(defaultPageIndex);
+    }
+    public void GoToPage(int pageIndex)
     {
         if (pageIndex < pages.Count && pages[pageIndex] != null)
         {
-            for (int i = 0; i < pages.Count; i++)
-            {
-                if (i == pageIndex)
-                {
-                    pages[i].SetActive(true);
-                }
-                else
-                    pages[i].SetActive(false);
-            }
+            SetAllPages(false);
+            pages[pageIndex].SetActive(true);
+        }
+    }
+
+    public void SetAllPages(bool activate)
+    {
+        for (int i = 0; i < pages.Count; i++)
+        {
+            pages[i].SetActive(activate);
         }
     }
 }

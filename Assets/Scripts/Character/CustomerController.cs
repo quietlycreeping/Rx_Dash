@@ -51,7 +51,8 @@ public class CustomerController : MonoBehaviour
     private void CustomerMove(Vector2 target, GameObject self)
     {
         if (self != this.gameObject && this != null)
-          return;  
+          return;
+
         else
         {
             StopAllCoroutines();
