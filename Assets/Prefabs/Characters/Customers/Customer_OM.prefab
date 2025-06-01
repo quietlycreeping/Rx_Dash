@@ -42,8 +42,8 @@ GameObject:
   - component: {fileID: 2470645676451893289}
   - component: {fileID: 8395327385339240008}
   - component: {fileID: 4150334377666213986}
-  - component: {fileID: 7064992614002459662}
   - component: {fileID: -6291327886405360324}
+  - component: {fileID: 6234654865786750316}
   - component: {fileID: 4908890133164339352}
   m_Layer: 0
   m_Name: Customer_OM
@@ -145,18 +145,6 @@ NavMeshAgent:
   m_BaseOffset: 0.35
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &7064992614002459662
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7120207167068673736}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17e94d5e27698924d840cf2ec6276fa0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &-6291327886405360324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,6 +159,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   templateCustomerData: {fileID: 11400000, guid: e3881ee2ab7d01642aed7f067109457f, type: 2}
   customerData: {fileID: 0}
+--- !u!114 &6234654865786750316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7120207167068673736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17e94d5e27698924d840cf2ec6276fa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!82 &4908890133164339352
 AudioSource:
   m_ObjectHideFlags: 0
@@ -183,8 +183,8 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b2b461c2645a78547bf8a74b432f3789, type: 3}
   m_Resource: {fileID: 8300000, guid: b2b461c2645a78547bf8a74b432f3789, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_PlayOnAwake: 0
+  m_Volume: 0.6
   m_Pitch: 1
   Loop: 0
   Mute: 0

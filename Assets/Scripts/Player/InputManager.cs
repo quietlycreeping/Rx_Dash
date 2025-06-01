@@ -36,7 +36,7 @@ public class InputManager : GenericSingleton<InputManager>
         hitInfo = Physics2D.Raycast(clickedPoint, Vector2.zero);
     }
 
-    void MouseControl()
+    public void MouseControl()
     {
         if (Input.GetMouseButtonDown(0) && hitInfo.collider != null)
         {

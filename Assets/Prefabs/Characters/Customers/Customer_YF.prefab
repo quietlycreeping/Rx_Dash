@@ -41,8 +41,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5055900045302553540}
   - component: {fileID: 1345424121618315443}
-  - component: {fileID: 3360254411569698430}
   - component: {fileID: -1129746753595498195}
+  - component: {fileID: 7358029920330101293}
   - component: {fileID: 3543201489444132045}
   - component: {fileID: 6900635906779723947}
   m_Layer: 0
@@ -123,18 +123,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
---- !u!114 &3360254411569698430
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7329463398577616869}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17e94d5e27698924d840cf2ec6276fa0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &-1129746753595498195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149,6 +137,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   templateCustomerData: {fileID: 11400000, guid: 90b9573555621604d8a1ab0dc4d65fa1, type: 2}
   customerData: {fileID: 0}
+--- !u!114 &7358029920330101293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7329463398577616869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17e94d5e27698924d840cf2ec6276fa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!195 &3543201489444132045
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -183,8 +183,8 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b2b461c2645a78547bf8a74b432f3789, type: 3}
   m_Resource: {fileID: 8300000, guid: b2b461c2645a78547bf8a74b432f3789, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_PlayOnAwake: 0
+  m_Volume: 0.6
   m_Pitch: 1
   Loop: 0
   Mute: 0

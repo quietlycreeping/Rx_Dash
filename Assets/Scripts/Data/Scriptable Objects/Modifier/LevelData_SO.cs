@@ -26,7 +26,8 @@ public class LevelData_SO : ScriptableObject
     public float overTimeMod = 0.3f;
 
     [Header("Customers")]
-    [Tooltip("Waittime is total time. From game start till they arrive.")]
+    public int empty;
+    [Space(50)]
+    [Tooltip("Time is total time it takes to arrive. From game start till they arrive. Ex:2 secs into game play")]
     public List<int> customerArriveTime;
-    
 }

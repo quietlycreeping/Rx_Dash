@@ -759,7 +759,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f6cf34d30d1ac74092411001c1d46cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customerList: []
 --- !u!1 &271673971
 GameObject:
   m_ObjectHideFlags: 0
@@ -1409,7 +1408,7 @@ GameObject:
   m_Component:
   - component: {fileID: 722984603}
   m_Layer: 0
-  m_Name: Line3
+  m_Name: Spot3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1656,7 +1655,7 @@ GameObject:
   m_Component:
   - component: {fileID: 793081286}
   m_Layer: 0
-  m_Name: Line5
+  m_Name: Spot5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1732,7 +1731,7 @@ GameObject:
   m_Component:
   - component: {fileID: 844883421}
   m_Layer: 0
-  m_Name: Line0
+  m_Name: Spot0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4715,7 +4714,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1309713371}
   m_Layer: 0
-  m_Name: Line4
+  m_Name: Spot4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5753,7 +5752,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2032047959}
   m_Layer: 0
-  m_Name: Line1
+  m_Name: Spot1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5846,7 +5845,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2112958065}
   m_Layer: 0
-  m_Name: Line2
+  m_Name: Spot2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

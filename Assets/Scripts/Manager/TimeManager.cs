@@ -10,9 +10,12 @@ using System;
 
 public class TimeManager : GenericSingleton<TimeManager>
 {
+    /*  TimeManager -> compares time to CustomerArriveTime List         | Event CustomerArrive
+        QueManager -> Instantiates customer and finds que destination   | Event MoveCustomer
+        QueManager -> When queUpdates/Moving Customers around           | Event MoveCustomer
+    */
 //================= Events =================//
-    public static event Action CustomerArrive;
-    //TODO: add event listenter in quemanager
+    public event Action<int> CustomerArrive;
 
 //================= Variables =================//
     [Header("Components")]
@@ -23,13 +26,16 @@ public class TimeManager : GenericSingleton<TimeManager>
     float currentTime;
     int warningTime;
     float overtimeTime;
-    List<int> customerTime;
+    //Timer---
     bool countDown = true;
     bool hasLimit = true;
     float timerLimit = 0;
     bool overTime = false;
 
-    //================= Core Functions =================//
+    List<int> customerTime = new();
+    int customerIndex = 0;
+
+//================= Core Functions =================//
     protected override void Awake()
     {
         base.Awake();
@@ -48,7 +54,7 @@ public class TimeManager : GenericSingleton<TimeManager>
         CountTime();
     }
 
-    //================= Functions =================//
+//================= Functions =================//
     void CountTime()
     {
         if (hasLimit && ((countDown && currentTime <= timerLimit) || (!countDown && currentTime >= timerLimit)))
@@ -67,27 +73,34 @@ public class TimeManager : GenericSingleton<TimeManager>
                 Time.timeScale = 0;
             }
         }
+
         DisplayTime(currentTime);
-        //CheckTimeEvent(currentTime);
+
+        if (customerIndex < customerTime.Count)
+            CheckTimeEvent(currentTime);
     }
 
-    void DisplayTime(float time)
+    void DisplayTime(float activeTime)
     {
-        if(time < 0)
+        if(activeTime < 0)
         {
-            time = 0;
+            activeTime = 0;
         }
         
-        float minutes = Mathf.FloorToInt(time / 60);
-        float seconds = Mathf.FloorToInt(time % 60);
+        float minutes = Mathf.FloorToInt(activeTime / 60);
+        float seconds = Mathf.FloorToInt(activeTime % 60);
 
         if (timerText != null)
         {
             timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
         }
     }
-    void CheckTimeEvent(float currentTime)
+    public void CheckTimeEvent(float activeTime)
     {
-        CustomerArrive?.Invoke();
+        if (customerTime[customerIndex] == Mathf.FloorToInt(activeTime))
+        {
+            CustomerArrive?.Invoke(customerIndex);
+            customerIndex++;
+        }
     }
 }

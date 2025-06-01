@@ -6,7 +6,6 @@
 using System;
 using UnityEngine;
 using System.Collections.Generic;
-using Unity.Properties;
 
 public class LevelStats : MonoBehaviour
 {
@@ -28,6 +27,7 @@ public class LevelStats : MonoBehaviour
         if (templateCustomerList)
             customerList = Instantiate(templateCustomerList);
 
+        MathStartTimes();
     }
 
     //================= Properties =================// 
@@ -95,5 +95,14 @@ public class LevelStats : MonoBehaviour
         set { customerList.customerList = value; }
     }
     #endregion
+
+//================= Functions =================//
+    private void MathStartTimes()
+    {
+        for (int i = 0; i < CustomerAmount; i++)
+        {
+            CustomerArriveTime[i] = Mathf.FloorToInt(TimeLimit) - CustomerArriveTime[i];
+        }
+    }
 
 }
