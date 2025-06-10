@@ -24,12 +24,18 @@ public class UIManager : MonoBehaviour
     public bool allowPause = true;
     private bool isPaused = false; // Whether the game is paused
 
+    [Header("UI Effects")]
+    public GameObject onHoverEffect;
+    public GameObject clickEffect;
+    public GameObject backClickEffect;
+
     [Header("Managers")]
+    public GameObject uICloneFolder;
     public InputManager inputManager; // The Input Manager to listen for pausing
     [HideInInspector]
     public EventSystem eventSystem; // The event system handling UI navigation
 
-    //================= Core Functions =================//
+//================= Core Functions =================//
     private void Awake()
     {
         ActivateDefaultPage(defaultPageIndex);
@@ -40,7 +46,7 @@ public class UIManager : MonoBehaviour
         { CheckPauseInput(); }
     }
 
-    //================= Functions =================//
+//================= Functions =================//
     #region Pause Functions
     private void CheckPauseInput()
     {
@@ -73,6 +79,7 @@ public class UIManager : MonoBehaviour
     }
     #endregion
 
+    #region Page Functions
     public void ActivateDefaultPage(int defaultPageIndex)
     {
         GoToPage(defaultPageIndex);
@@ -93,4 +100,29 @@ public class UIManager : MonoBehaviour
             pages[i].SetActive(activate);
         }
     }
+    #endregion
+
+    #region Creating UI Effects
+    public void CreateHoverEffect()
+    {
+        if (onHoverEffect != null && uICloneFolder != null)
+        {
+            Instantiate(onHoverEffect, uICloneFolder.transform);
+        }
+    }
+    public void CreateClickEffect()
+    {
+        if (clickEffect != null && uICloneFolder != null)
+        {
+            Instantiate(clickEffect, uICloneFolder.transform);
+        }
+    }
+        public void CreateBackClickEffect()
+    {
+        if (backClickEffect != null && uICloneFolder != null)
+        {
+            Instantiate(backClickEffect, uICloneFolder.transform);
+        }
+    }
+    #endregion
 }

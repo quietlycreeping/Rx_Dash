@@ -23,17 +23,13 @@ public class QueManager : MonoBehaviour
     GameObject[] customerList; //random generated array of customers based of level stats # of customers
     List<GameObject> linedupCustomers = new(); //customers who have arrived
 
-    //queSpots
-    Vector2[] queSpots; //hardcoded location spots that are children of the queManager
-    int queSpotAmount;
-    int queStartSpot;
-    int queExitSpot;
+    [Header("Que Spots")]
+    public GameObject[] queSpots;
+    public int startIndex;
+    public int exitIndex;
+    public GameObject cloneFolder;
 
     //================= Core Functions =================//
-    public void Awake()
-    {
-        GenerateQueSpots();
-    }
     public void Start()
     {
         GenerateCustomerArray();
@@ -60,20 +56,6 @@ public class QueManager : MonoBehaviour
         }
     }
 
-    private void GenerateQueSpots()
-    {
-        queSpotAmount = transform.childCount;
-        queSpots = new Vector2[queSpotAmount];
-
-        for (int i = 0; i < queSpotAmount; i++)
-        {
-            queSpots[i] = transform.GetChild(i).position;
-        }
-
-        queStartSpot = queSpotAmount - 2;
-        queExitSpot = queSpotAmount - 1;
-    }
-
     private void GenerateLinedUpList()
     {
         linedupCustomers = new List<GameObject>(maxQueSize);
@@ -87,7 +69,7 @@ public class QueManager : MonoBehaviour
     public void CreateCustomer(int index)
     {
         GameObject activeCustomer = customerList[index]; //index should be same as time index
-        Instantiate(activeCustomer);
+        Instantiate(activeCustomer, cloneFolder.transform, true);
     }
 
     public void QueUp(GameObject customer)
@@ -97,8 +79,8 @@ public class QueManager : MonoBehaviour
             if (linedupCustomers[i] == null)
             {
                 linedupCustomers[i] = customer;
-                int postionNum = Math.Min(queStartSpot, i);
-                MoveCustomer?.Invoke(queSpots[postionNum], customer);
+                int postionNum = Math.Min(startIndex, i);
+                MoveCustomer?.Invoke(queSpots[postionNum].transform.position, customer);
 
                 break;
             }
