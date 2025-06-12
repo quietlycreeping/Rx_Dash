@@ -16,7 +16,7 @@ public class QueManager : MonoBehaviour
         QueManager -> When queUpdates/Moving Customers around           | Event MoveCustomer
     */
     //================= Events =================//
-    public static event Action<Vector2,GameObject> MoveCustomer; 
+    public static event Action<Vector2, GameObject> MoveCustomer;
 
     //================= Variables =================//
     int maxQueSize;
@@ -30,6 +30,11 @@ public class QueManager : MonoBehaviour
     public GameObject cloneFolder;
 
     //================= Core Functions =================//
+    public void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
+
     public void Start()
     {
         GenerateCustomerArray();
@@ -86,7 +91,7 @@ public class QueManager : MonoBehaviour
             }
         }
     }
-    
+
     public void UpdateQue(GameObject customer)
     {
         int i = 0;

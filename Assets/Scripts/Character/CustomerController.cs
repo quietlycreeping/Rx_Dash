@@ -16,17 +16,17 @@ public class CustomerController : MonoBehaviour
         QueManager -> Instantiates customer and finds que destination   | Event MoveCustomer
         QueManager -> When queUpdates/Moving Customers around           | Event MoveCustomer
     */
-//================= Events =================//
+    //================= Events =================//
     public static event Action<GameObject> JoinQue;
 
-//================= Variables =================//
+    //================= Variables =================//
     CustomerStats customerStats;
     NavMeshAgent agent;
     AudioSource custArriveChime;
     int currentQueIndex;
 
-//================= Core Functions =================//
-    private void Awake()
+    //================= Core Functions =================//
+    private void OnEnable()
     {
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
@@ -38,6 +38,7 @@ public class CustomerController : MonoBehaviour
         custArriveChime = GetComponent<AudioSource>();
         QueManager.MoveCustomer += CustomerMove;
         StartCoroutine(DelayJoin());
+        //DontDestroyOnLoad(gameObject);
     }
 
     //================= Functions =================//
@@ -51,7 +52,7 @@ public class CustomerController : MonoBehaviour
     private void CustomerMove(Vector2 target, GameObject self)
     {
         if (self != this.gameObject && this != null)
-          return;
+            return;
 
         else
         {
@@ -60,5 +61,8 @@ public class CustomerController : MonoBehaviour
             agent.destination = target;
         }
     }
-    
+    private void OnDestroy()
+    {
+        QueManager.MoveCustomer -= CustomerMove;
+    }
 }

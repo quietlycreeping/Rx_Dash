@@ -1154,6 +1154,7 @@ GameObject:
   - component: {fileID: 3890762169991125159}
   - component: {fileID: 177045599355779388}
   - component: {fileID: 5655908166011292010}
+  - component: {fileID: 5655908166011292011}
   m_Layer: 5
   m_Name: Menu Canvas + UI Manager
   m_TagString: Untagged
@@ -2723,9 +2724,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5655908166011292010}
-        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
-        m_MethodName: CreateBackClickEffect
+      - m_Target: {fileID: 5655908166011292011}
+        m_TargetAssemblyTypeName: ButtonFunctions, Assembly-CSharp
+        m_MethodName: GameQuit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3199,7 +3200,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Game
+  m_text: Start Shift
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 69ecfcb990fbd6b40ba51ecc9944e38c, type: 2}
   m_sharedMaterial: {fileID: 7487017305862239310, guid: 69ecfcb990fbd6b40ba51ecc9944e38c, type: 2}
@@ -3497,9 +3498,21 @@ MonoBehaviour:
   onHoverEffect: {fileID: 3575653050455647903, guid: 093992bccfd3ae449819d11a60b95d55, type: 3}
   clickEffect: {fileID: 2744992937227283135, guid: cb15e079fa813a64f86608d4c9a5615e, type: 3}
   backClickEffect: {fileID: 2744992937227283135, guid: 3aceafe005cd7a844a595976f2be217b, type: 3}
-  uiCloneFolder: {fileID: 177528140}
+  uICloneFolder: {fileID: 177528140}
   inputManager: {fileID: 0}
   eventSystem: {fileID: 0}
+--- !u!114 &5655908166011292011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130439435075464742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40900d1a81923e64394aea3771411161, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &5721689791734464027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4009,6 +4022,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5655908166011292011}
+        m_TargetAssemblyTypeName: ButtonFunctions, Assembly-CSharp
+        m_MethodName: LoadSceneName
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: SampleScene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!222 &7587904578682373648
