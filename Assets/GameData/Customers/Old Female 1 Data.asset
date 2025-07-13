@@ -18,7 +18,8 @@ MonoBehaviour:
   month: 1
   day: 8
   year: 1929
-  quickWait: 0
-  averageWait: 0
-  maxWait: 0
+  quickWait: 4
+  averageWait: 4
+  maxWait: 4
+  bagIdentifer: 0
   medicine: []

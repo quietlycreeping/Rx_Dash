@@ -25,9 +25,9 @@ public class LevelData_SO : ScriptableObject
     [Tooltip("Modifier to multiply timeLimit (fraction 0.3) to set overtime amount")]
     public float overTimeMod = 0.3f;
 
-    [Header("Customers")]
-    public int empty;
     [Space(50)]
+
+    [Header("Customers")]
     [Tooltip("Time is total time it takes to arrive. From game start till they arrive. Ex:2 secs into game play")]
     public List<int> customerArriveTime;
 }

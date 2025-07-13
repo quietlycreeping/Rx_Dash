@@ -18,8 +18,8 @@ MonoBehaviour:
   month: 3
   day: 14
   year: 1948
-  quickWait: 0
-  averageWait: 0
-  maxWait: 0
-  medicine:
-  - {fileID: 0}
+  quickWait: 4
+  averageWait: 4
+  maxWait: 4
+  bagIdentifer: 0
+  medicine: []

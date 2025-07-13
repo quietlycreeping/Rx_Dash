@@ -9,7 +9,7 @@ using System.Linq;
 using System;
 using Random = UnityEngine.Random;
 
-public class QueManager : MonoBehaviour
+public class QueManager : GenericSingleton<QueManager>
 {
     /*  TimeManager -> compares time to CustomerArriveTime List         | Event CustomerArrive
         QueManager -> Instantiates customer and finds que destination   | Event MoveCustomer
@@ -30,22 +30,20 @@ public class QueManager : MonoBehaviour
     public GameObject cloneFolder;
 
     //================= Core Functions =================//
-    public void Awake()
+    protected override void Awake()
     {
-        DontDestroyOnLoad(gameObject);
+        base.Awake();return;
     }
 
     public void Start()
     {
         GenerateCustomerArray();
-        GenerateLinedUpList();
 
         TimeManager.Instance.CustomerArrive += CreateCustomer;
-        CustomerController.JoinQue += QueUp;
+        CustomerController.JoinQue += JoinQue;
     }
 
     //================= Functions =================//
-    #region  Generate Lists/Array
     public void GenerateCustomerArray()
     {
         //queSize= levelStats customer amount or levelStats customer list amount; which ever is smaller
@@ -61,44 +59,27 @@ public class QueManager : MonoBehaviour
         }
     }
 
-    private void GenerateLinedUpList()
-    {
-        linedupCustomers = new List<GameObject>(maxQueSize);
-        for (int i = 0; i < maxQueSize; i++)
-        {
-            linedupCustomers.Add(null);
-        }
-    }
-    #endregion
-
     public void CreateCustomer(int index)
     {
         GameObject activeCustomer = customerList[index]; //index should be same as time index
         Instantiate(activeCustomer, cloneFolder.transform, true);
     }
 
-    public void QueUp(GameObject customer)
+    public void JoinQue(GameObject customer)
     {
-        for (int i = 0; i < maxQueSize; i++)
-        {
-            if (linedupCustomers[i] == null)
-            {
-                linedupCustomers[i] = customer;
-                int postionNum = Math.Min(startIndex, i);
-                MoveCustomer?.Invoke(queSpots[postionNum].transform.position, customer);
-
-                break;
-            }
-        }
+        int positionNum = Math.Min(startIndex, linedupCustomers.Count); //put customer in either visible spot or wait spot off camera
+        linedupCustomers.Add(customer);
+        MoveCustomer?.Invoke(queSpots[positionNum].transform.position, customer);
     }
 
-    public void UpdateQue(GameObject customer)
+    public void UpdateQue(int emptySpot)
     {
-        int i = 0;
-        while (linedupCustomers[i] != null)
-            i++;
+        linedupCustomers.RemoveAt(emptySpot);
 
-        linedupCustomers[i] = customer;
-        //MoveCustomer?.Invoke(queSpots[1]); 
+        for (int i = 0; i < linedupCustomers.Count - 1; i++)
+        {
+            MoveCustomer?.Invoke(queSpots[i].transform.position, linedupCustomers[i]);
+
+        }
     }
 }

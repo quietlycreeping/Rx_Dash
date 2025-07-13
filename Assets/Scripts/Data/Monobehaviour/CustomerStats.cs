@@ -8,7 +8,7 @@ using UnityEngine;
 
 public class CustomerStats : MonoBehaviour
 {
-//================= Variables =================//
+    //================= Variables =================//
     public CustomerData_SO templateCustomerData;
 
     [HideInInspector]
@@ -16,16 +16,7 @@ public class CustomerStats : MonoBehaviour
     [HideInInspector]
     public DateTime custBirthday;
 
-//================= Core Functions =================//
-    private void Awake()
-    {
-        if (templateCustomerData)
-        {
-            customerData = Instantiate(templateCustomerData);
-        }
-    }
-
-//================= Properties =================// 
+    //================= Properties =================// 
     #region Read from CustomerData_SO / Bio
     public string FirstName
     {
@@ -55,29 +46,58 @@ public class CustomerStats : MonoBehaviour
     #endregion
 
     #region Read from CustomerData_SO / Wait Tolerances
-    public float QuickWait
+    /*Times will be added together to get total stay
+    Example: Total time=15
+    ╔═════════════╦═════╦═══════╦═══════╗
+    ║   Variable  ║ Set ║ Range ║ Vaule ║
+    ╠═════════════╬═════╬═══════╬═══════╣
+    ║  quickWait  ║  5  ║  0-5  ║   5   ║
+    ╠═════════════╬═════╬═══════╬═══════╣
+    ║ averageWait ║  10 ║  6-15 ║   15  ║
+    ╠═════════════╬═════╬═══════╬═══════╣
+    ║   maxWait   ║  5  ║ 16-20 ║   20  ║
+    ╚═════════════╩═════╩═══════╩═══════╝
+    */
+    public int QuickWait //end time
     {
         get { if (customerData) return customerData.quickWait; else return 0; }
         set { customerData.quickWait = value; }
     }
-    public float AverageWait
+    public int AverageWait //end time
     {
         get { if (customerData) return customerData.averageWait; return 0; }
         set { customerData.averageWait = value; }
     }
-    public float MaxWait
+    public int MaxWait //end time
     {
         get { if (customerData) return customerData.maxWait; else return 0; }
         set { customerData.maxWait = value; }
     }
     #endregion
 
+    //================= Core Functions =================//
+    private void Awake()
+    {
+        if (templateCustomerData)
+        {
+            customerData = Instantiate(templateCustomerData);
+        }
+
+        MathWaitTimes();
+    }
+
     //================= Functions =================//
     public void CustomerBirthday(int year, int month, int day)
     {
         try
-        {custBirthday = new DateTime(year, month, day);}
+        { custBirthday = new DateTime(year, month, day); }
         catch (ArgumentOutOfRangeException)
-        {Debug.Log("Invalid " + customerData + " birthday");}
+        { Debug.Log("Invalid " + customerData + " birthday"); }
+    }
+
+    public void MathWaitTimes()
+    {
+        AverageWait += QuickWait;
+        MaxWait += AverageWait;
     }
 }
